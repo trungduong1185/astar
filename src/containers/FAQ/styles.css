@@ -1,0 +1,44 @@
+/* FAQ Styles */
+.w-faq{
+    width: 80%;
+}
+.faq-item {
+  transition: all 0.3s ease;
+}
+
+.faq-question {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f8f9fa;
+}
+
+.faq-answer {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.faq-toggle {
+  transition: transform 0.3s ease;
+}
+
+.faq-toggle.open {
+  transform: rotate(180deg);
+} 
+@media (max-width: 768px) {
+  .w-faq{
+    width: 90%;
+  }
+}

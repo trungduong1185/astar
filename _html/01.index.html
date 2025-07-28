@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Bootcamp</title>
+    <link rel="icon" href="/images/newturing_ai.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/tachyons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="sans-serif">
+    <!-- fixed top-0 z-3 -->
+    <div id="mobile-menu" class="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center">
+      <img src="images/logo_red.svg" alt="" class="w22" />
+      <img src="images/svg_bars.svg" alt="" class="pointer w2" />
+    </div>
+
+    <!-- modal mobile menu -->
+
+    <!-- style cho modal -->
+    <!-- fixed top-0 z-4 -->
+    <div id="_modal_mobile_menu" class="flex dn-l vh-100 w-100 pc-white bg-pc-red flex-column justify">
+      <div class="w-100 flex justify-between pa4 items-center">
+        <img src="images/newturing_ai.png" alt="" class="w22" />
+        <p class="_btn-close white pointer f4 fw6">X</p>
+      </div>
+      <div class="w-100 flex flex-column self-stretch pa3 mv3 items-center">
+        <div class="pv4 plex-sans ttu pointer">INTRODUCE</div>
+        <div class="pv4 plex-sans ttu pointer">CURRICULUM</div>
+        <div class="pv4 plex-sans ttu pointer">MENTORSHIP</div>
+        <div class="pv4 plex-sans ttu pointer">PROCESS</div>
+        <div class="pv4 plex-sans ttu pointer">Q&A</div>
+      </div>
+    </div>
+
+    <!-- end modal mobile menu -->
+    <div id="desktop-menu" class="dn flex-l w-100 bg-white pv2 shadow-2 fixed top-0 z-3">
+      <div class="w-70 center flex justify-between items-center ph5">
+        <img src="images/newturing_ai@2x.png" alt="" class="w25" />
+        <div class="flex items-center">
+          <ul class="flex list fw3 sans-serif pc-dark-gray">
+            <li class="ph4 dim pointer ttu">INTRODUCE</li>
+            <li class="ph4 dim pointer ttu">CURRICULUM</li>
+            <li class="ph4 dim pointer ttu">MENTORSHIP</li>
+            <li class="ph4 dim pointer ttu">PROCESS</li>
+            <li class="ph4 dim pointer ttu">Q&A</li>
+          </ul>
+          <div class="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim">APPLY NOW</div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mobile-count-down"
+      class="flex dn-l vh-100 cover white flex-column items-center justify-center"
+      style="background-image: url(images/mb_background.png)"
+    >
+      <div id="_mb-group-count-down" class="flex justify-center items-end">
+        <!--  days -->
+        <div id="_khoi_vuong_1" class="flex flex-column justify-center items-center">
+          <div class="f6 fw3 db mb2">DAYS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">00</div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  hours -->
+        <div id="_khoi_vuong_1" class="flex flex-column justify-center items-center">
+          <div class="f6 fw3 db mb2">HOURS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">13</div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  minutes -->
+        <div id="_khoi_vuong_1" class="flex flex-column justify-center items-center">
+          <div class="f6 fw3 db mb2">MINUTES</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">24</div>
+        </div>
+
+        <span class="f2 fw6 ph2 mb3">:</span>
+
+        <!--  seconds -->
+        <div id="_khoi_vuong_1" class="flex flex-column justify-center items-center">
+          <div class="f6 fw3 db mb2">SECONDS</div>
+          <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">15</div>
+        </div>
+      </div>
+
+      <p class="tc f2 fw5 center w-90 mt4">
+        AI BOOTCAMP <br /><span class="i fw4 tracked tangergin"> for </span>
+        START UP
+      </p>
+
+      <div class="tc pc-info tracked f6 w-90 center lh-title pt4">
+        The First AI Bootcamp from Silicon Valley for Startups in Vietnam
+      </div>
+    </div>
+
+    <!-- desktop countdown -->
+    <div
+      id="desktop-count-down"
+      class="dn dn-m flex-l w-100 bg-black-20 vh-100 items-center justify-around cover"
+      style="background-image: url('images/background.png')"
+    >
+      <div class="flex flex-column">
+        <div class="flex flex-column p-title pc-white tracked tc">
+          <p class="">AI BOOTCAMP</p>
+          <p class="pt3"><span class="fw4 tangergin tracked i">for</span> STARTUP</p>
+        </div>
+        <div class="tc pc-info tracked f4 w-80 center lh-copy pt4">
+          The First AI Bootcamp from Silicon Valley for Startups in Vietnam
+        </div>
+
+        <div class="dn flex-ns pv4 justify-center items-center mt4 pc-white-title">
+          <div class="khoiVuong flex justify-center items-center flex-column">
+            <p class="ttu">DAYS</p>
+            <p class="soTo">00</p>
+          </div>
+
+          <p class="soTo ph3">:</p>
+          <div class="khoiVuong flex justify-center items-center flex-column">
+            <p class="ttu">HOURS</p>
+            <p class="soTo">13</p>
+          </div>
+
+          <p class="soTo ph3">:</p>
+          <div class="khoiVuong flex justify-center items-center flex-column">
+            <p class="ttu">MINUTES</p>
+            <p class="soTo">24</p>
+          </div>
+
+          <p class="soTo ph3">:</p>
+          <div class="khoiVuong flex justify-center items-center flex-column">
+            <p class="ttu">SECONDS</p>
+            <p class="soTo">15</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- introduce / vision-->
+    <div id="introduce" class="flex flex-column w-100 pt3 tc">
+      <p class="pc-green f4 ttu tracked-mega fw6 mt4 mt5-l">VISION</p>
+
+      <p class="w-90 w-60-l center f4 f2-l fw6 pc-red ttu tracked-l mt4 mt5-l ph3">
+        HELP YOU LEARN HOW TO INTEGRATE AI INTO YOUR BUSINESS & REACH 10-100X RETURN
+      </p>
+
+      <!-- phan 3 cot -->
+      <div class="w-90 w-60-l flex flex-column flex-row-l center mt3 mt4-l">
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-between">
+          <div class="flex flex-column items-center">
+            <img src="images/svg_earth.svg" alt="" class="pt4" />
+            <p class="pt4 f4 fw6 pc-red">Better quality of product and service</p>
+          </div>
+          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+            Utilize AI to increase business productivity, better quality and increasingly personalized AI-enhanced
+            products.
+          </p>
+        </div>
+
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-between">
+          <div class="flex flex-column items-center">
+            <img src="images/svg_pc.svg" alt="" class="pt4" />
+            <p class="pt4 f4 fw6 pc-red">Competitive advantage with AI</p>
+          </div>
+
+          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+            Provide the companies with AI capability as a competitive advantage to make it harder to copycat.
+          </p>
+        </div>
+
+        <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-between">
+          <div class="flex flex-column items-center">
+            <img src="images/svg_notebook.svg" alt="" class="pt4" />
+            <p class="pt4 f4 fw6 pc-red">10-100x Transformation</p>
+          </div>
+          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+            Unlock the companies’ scalability bottleneck with AI instead of manual / human approach
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end introduce / vision-->
+
+    <!-- test modal 
+    -->
+    <!-- <div class="w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999 tc pt5 white f2">
+      noi dung modal
+    </div> -->
+
+    <!-- challence desktop start -->
+    <div class="dn db-l w-100 bg-pc-red mt5 mb6">
+      <div class="w-70 center pv5">
+        <p class="_title f3 fw6 tc tracked-mega ttu pc-white">Existing Challenges for startups</p>
+
+        <div class="_mansory w-100 flex flex-wrap justify-around mt4 relative">
+          <!-- cot 1 -->
+          <div class="w-40 ph3">
+            <!-- khoi 1 -->
+            <div class="w-100 pv4">
+              <p class="f4 fw6 pc-white ttu tracked">
+                01 - Limited understanding on How to apply AI in solving busines problem
+              </p>
+
+              <p class="pc-pink-white mt4 tracked lh-copy f6 poppins fw2">
+                Blind spot of how AI can and can’t help unlock certain bottlenecks that startups are facing. How AI can
+                be relevant in their business model. Or limited understanding what technology is easiest to start with
+                or easy to use & what the state-of-the-art AI approaches are.
+              </p>
+            </div>
+
+            <!-- khoi 3 -->
+            <div class="w-100 pv4">
+              <p class="f4 fw6 pc-white ttu tracked">03 - HOW TO BUILD DATA PIPELINE</p>
+
+              <p class="pc-pink-white mt4 tracked lh-copy f6 poppins fw2">
+                Data pipeline architecture could be a tricky task. How far is it from Manual → Semi-automatic →
+                Automatic?
+              </p>
+            </div>
+          </div>
+          <!-- end cot 1 -->
+
+          <!-- cot 2 -->
+          <div class="w-40 ph3">
+            <!-- khoi 2-->
+            <!-- khoang cach dau -->
+            <div class="w-100 pv5">
+              <p class="f4 fw6 pc-white ttu tracked lh-copy">02 - HOW TO IMPLEMENT AI INFRASTRUCTURE (MLOPS)</p>
+              <p class="pc-pink-white mt4 tracked lh-copy f6 poppins fw2">
+                AI infrastructure (or MLOPS) - or how to integrate AI prototypes into their business - is one of the
+                most common roadblocks of any technology company in Vietnam. How to access and manage the computing
+                resources to test, train and deploy AI algorithms?
+              </p>
+            </div>
+
+            <img src="images/challenges.png" alt="" class="absolute" style="width: 45%; bottom: -65%; right: 3%" />
+          </div>
+          <!-- end cot 2 -->
+        </div>
+      </div>
+    </div>
+    <!-- challence desktop end -->
+
+    <!-- solution -->
+    <!-- solution desktop -->
+    <div class="dn db-l w-100 mt5 lexend">
+      <div class="w-70 center">
+        <p class="_title f2 fw6 pc-red tc tracked ttu w-70 center">
+          WHY WE ARE IN A UNIQUE POSITION TO OFFER THIS BOOTCAMP
+        </p>
+
+        <div class="_mansory w-100 flex flex-wrap justify-around mt5">
+          <!-- cot 1 -->
+          <div class="w-40 pa2">
+            <!-- khoi 1 -->
+            <div class="w-100 pa3">
+              <p class="f4 fw6 pc-red ttu tracked">Global AI Network:</p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f5 poppins">
+                Deep AI expertise within the founding team & access to a network of global AI experts. Deep
+                understanding of Silicon Valley startup culture
+              </p>
+            </div>
+
+            <!-- khoi 3 -->
+            <div class="w-100 pa3">
+              <p class="f4 fw6 pc-red ttu tracked lh-copy">Customizable AI Assessment:</p>
+              <p class="pc-dark-gray mt4 tracked lh-copy f5 poppins">
+                Ability to tailor our AI evaluation to each company joining the bootcamp.
+              </p>
+              <img src="images/thanhtich.png" alt="" class="w-100 mt4" />
+            </div>
+
+            <!-- khoi 5 -->
+            <!-- <div class="w-100 pa3">
+              <img src="images/solutions.png" alt="" class="w-100 mt4" />
+            </div> -->
+          </div>
+
+          <!-- cot 2 -->
+          <div class="w-40 pa2 flex flex-column justify-end">
+            <!-- khoi 2 -->
+            <div class="w-100 pa3">
+              <p class="f4 fw6 pc-red ttu tracked">Proven AI Programs</p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f5 poppins">
+                Experience & expertise in providing AI training from foundational to advanced levels.
+              </p>
+
+              <img src="images/video.png" alt="" class="w-100 mt4" />
+            </div>
+            <!-- khoi 4 -->
+            <!-- <div class="w-100 pa3">
+              <p class="f4 fw6 pc-red ttu tracked">
+                04 _ Lorem ipsum dolor sit amet
+              </p>
+
+              <p class="pc-dark-gray mt4 tracked lh-copy f6">
+                That's why <b>AI BOOTCAMP FOR FOUNDER (ABFF)</b> - Organized by
+                VietAI & Do Venture was born. VietAI, a non-profit organization
+                with a high mission of building Vietnam AI Community - is
+                willing to​connect with top AI Experts and the community of
+                Serial Entrepreneurs from Silicon Valley to bring top-notch
+                knowledge and its practices to support Startups in Vietnam and
+                Vietnam development in the next 5-10 years. This is a one-
+                of-the-kind program designed for Founders in Vietnam
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- solution mobile -->
+    <div class="db dn-l w-100 pv5">
+      <p class="w-90 center f2 tc fw6 pc-red ttu tracked-l lh-copy">PROBLEMS AND SOLUTIONS?</p>
+
+      <!-- khoi 1 -->
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">Global AI Network:</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Deep AI expertise within the founding team & access to a network of global AI experts. Deep understanding of
+          Silicon Valley startup culture
+        </p>
+      </div>
+
+      <!-- khoi 2 -->
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">Customizable AI Assessment:</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Ability to tailor our AI evaluation to each company joining the bootcamp.
+        </p>
+        <img src="images/video.png" alt="" class="w-100 mt4" />
+      </div>
+
+      <!-- khoi 3 -->
+
+      <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">Customizable AI Assessment:</p>
+        <p class="pc-dark-gray mt4 tracked lh-copy f5 poppins">
+          Ability to tailor our AI evaluation to each company joining the bootcamp.
+        </p>
+        <img src="images/thanhtich.png" alt="" class="w-100 mt4" />
+      </div>
+
+      <!-- khoi 4 -->
+
+      <!-- <div class="w-90 center pa3">
+        <p class="f4 fw6 pc-red ttu tracked">04 _ Lorem ipsum dolor sit amet</p>
+
+        <p class="pc-gray-blue mt4 tracked lh-copy f5 poppins">
+          Over half of the leading Startup teams report they are using AI in
+          some way, but 75% of teams get stuck on how to apply AI to their
+          business and get the most out of it.
+        </p>
+        <img src="images/solutions.png" alt="" class="w-100 mt4" />
+      </div> -->
+    </div>
+    <!-- end solution -->
+
+    <!-- desktop - content -->
+    <div class="w-100 bg-black-05 pv5 overflow-hidden">
+      <div class="_title f2 fw6 pc-red ttu tracked tc ph4">
+        what you will learn in this <span class="dn dib-l"> bootcamp?</span>
+      </div>
+
+      <!-- mobile mục lục -->
+      <div class="flex dn-l w-300 justify-start mt4 pa3 overflow-scroll">
+        <div class="br3 ph2 ph3-l pv3 mh3 w6 pc-white bg-pc-red tc lh-copy tracked f6">Lorem ipsum dolor sit amet</div>
+        <div class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6">
+          Lorem ipsum dolor sit amet
+        </div>
+        <div class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6">
+          Lorem ipsum dolor sit amet
+        </div>
+        <div class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6">
+          Lorem ipsum dolor sit amet
+        </div>
+        <div class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6">
+          Lorem ipsum dolor sit amet
+        </div>
+        <div class="ba b--black-30 br3 ph2 ph3-l pv3 mh3 w6 black-50 bg-white tc lh-copy tracked f6">
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+
+      <!--  desktop mục lục -->
+      <div class="dn w-100 flex-l justify-center mt4">
+        <div class="flex items-center br3 ph2 pv3 mh3 w45 bg-pc-red pc-white tc lh-copy tracked f6 fw3">
+          MATCHING WITH AI ADVISOR
+        </div>
+        <div class="flex items-center br3 ph2 pv3 mh3 w45 bg-pc-red pc-white tc lh-copy tracked f6 fw3">
+          MATCHING WITH AI EXPERT BUDDY
+        </div>
+        <div class="flex items-center br3 ph2 pv3 mh3 w45 bg-pc-red pc-white tc lh-copy tracked f6 fw3">
+          FOUNDATION OF MACHINE LEARNING
+        </div>
+        <div class="flex items-center br3 ph2 pv3 mh3 w45 bg-pc-red pc-white tc lh-copy tracked f6 fw3">
+          ADVANCED PROGRAM
+        </div>
+        <div class="flex items-center br3 ph2 pv3 mh3 w45 bg-pc-red pc-white tc lh-copy tracked f6 fw3">
+          PROTOTYPE BUILDING
+        </div>
+      </div>
+
+      <p class="w-80 w-60-l tl tc-l black-70 center mt4 f6 lh-copy tracked">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet
+      </p>
+    </div>
+
+    <!-- mentoship -->
+    <!-- mobile mentoship -->
+    <!-- NEW desktop - mentorship -->
+
+    <div class="dn db-l w-70 center ph4 f3 fw6 tracked pc-red mv5">MENTORSHIP</div>
+
+    <div id="desktop-mentorship" class="dn flex-l w-70 flex-column center br3 mt2 pv2 ph3 white bg-pc-red">
+      <!-- tab bar -->
+      <div class="w-100 flex justify-around">
+        <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc">General Program Advisor</div>
+        <div class="w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc">AI Advisor</div>
+        <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc">AI Expert Buddy</div>
+      </div>
+      <!-- end tab bar -->
+
+      <div class="w-90 center mt4">
+        <p class="_title f2 fw4 lh-copy tracked tl pc-white">General Program Advisor</p>
+        <p class="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
+          Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy
+        </p>
+
+        <div class="_4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
+          <div class="w-third pv0 mv3">
+            <img src="images/m_thangluong.png" alt="" class="w-90 br4 pointer" />
+
+            <p class="f4 mt3 fw4 tl">Thang Luong</p>
+          </div>
+
+          <div class="w-third pv0 mv3">
+            <img src="images/m_thucvu.png" alt="" class="w-90 br4 pointer" />
+            <p class="f4 mt3 fw4 tl">Thuc Vu</p>
+          </div>
+
+          <div class="w-third pv0 mv3">
+            <img src="images/m_vuvan.png" alt="" class="w-90 br4 pointer" />
+            <p class="f4 mt3 fw4 tl">Vu Van</p>
+          </div>
+
+          <div class="w-third pv0 mv3">
+            <img src="images/m_thangluong.png" alt="" class="w-90 br4 pointer" />
+            <p class="f4 mt3 fw4 tl">Thang Luong</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END NEW desktop - mentorship -->
+
+    <!-- SELECTION PROCESS -->
+    <div class="dn db-l w-100 pt4 pb6 relative mt6">
+      <div class="_nen_do absolute bg-pc-red white w-40 right-0 tc h-100 top-0 z-0 br4 br--left"></div>
+
+      <div class="w-70 center">
+        <p class="ph5 pc-red f2 fw6 tracked">SELECTION PROCESS</p>
+      </div>
+
+      <div class="w-70 pt4 mt4 bg-pc-medium-gray br4 z-5 center relative flex justify-around">
+        <!-- cot 1 muc luc -->
+        <div class="w-40 ph4 pb5 flex flex-column">
+          <!-- dong active -->
+          <div class="_active_item pointer flex items-center mt5">
+            <div class="w2 h2 br-100 bg-white ba b--black-50 flex items-center justify-center">1</div>
+            <div class="ph3">
+              <p class="pc-green f6 fw4 lh-copy">May 15 - May 28</p>
+              <p class="pc-dark-gray lh-copy f5 fw6 tracked">REGISTRATION</p>
+            </div>
+            <div class="bg-gray w-40 center bt bw1 b--pc-gray"></div>
+          </div>
+
+          <!-- dong khong active -->
+          <div class="_active_item pointer flex items-center mt5">
+            <div class="w2 h2 br-100 bg-white ba b--black-50 flex items-center justify-center">2</div>
+            <div class="ph3">
+              <p class="pc-light-gray f6 fw4 lh-copy">May 29 - JUNE 5</p>
+              <p class="pc-light-gray lh-copy f5 fw6 tracked">SCREENING</p>
+            </div>
+            <!-- <div class="bg-gray w-40 center bt bw1 b--pc-gray"></div> -->
+          </div>
+          <!-- dong khong active -->
+          <div class="_active_item pointer flex items-center mt5">
+            <div class="w2 h2 br-100 bg-white ba b--black-50 flex items-center justify-center">3</div>
+            <div class="ph3">
+              <p class="pc-light-gray f6 fw4 lh-copy">May 29 - JUNE 5</p>
+              <p class="pc-light-gray lh-copy f5 fw6 tracked">INTERVIEW</p>
+            </div>
+            <!-- <div class="bg-gray w-40 center bt bw1 b--pc-gray"></div> -->
+          </div>
+          <!-- dong khong active -->
+          <div class="_active_item pointer flex items-center mt5">
+            <div class="w2 h2 br-100 bg-white ba b--black-50 flex items-center justify-center">4</div>
+            <div class="ph3">
+              <p class="pc-light-gray f6 fw4 lh-copy">May 29 - JUNE 5</p>
+              <p class="pc-light-gray lh-copy f5 fw6 tracked">
+                FINAL COMPANIES <br />
+                CONFIRMED
+              </p>
+            </div>
+            <!-- <div class="bg-gray w-40 center bt bw1 b--pc-gray"></div> -->
+          </div>
+        </div>
+
+        <!-- cot 2 noi dung -->
+        <div class="w-50 pv4 pr4">
+          <p class="f3 fw6 tracked lh-copy">REGISTRATION</p>
+          <p class="f6 fw3 tracked lh-copy pc-gray mt3">
+            Click <a href="#" class="dark-gray fw5" id="">APPLY</a> to fill the registration form. In this form, we
+            expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your
+            business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least
+            two members (1 business & 1 tech lead/executive) per company to enroll in our program.
+            <br />
+            <br />
+            For us to fully evaluate the company's potential, we expect to get detailed answers jointly by the CEO (for
+            business) and CTO (for tech). Only 1 submission per company.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ENE SELECTION PROCESS -->
+
+    <!-- desktop - mentorship -->
+    <div id="desktop-mentorship" class="flex flex-l flex-column w-90 center mt2 pv5">
+      <div class="w-90 w-70-l center">
+        <p class="_title f3 fw6 pc-red ttu tracked tc">MENTORSHIP</p>
+
+        <div class="_4_hinh flex flex-column flex-row-l mt4 justify-center-l">
+          <div class="w-100 w-25-l tc tl-l pv2 pv0-l">
+            <img src="images/m_thangluong.png" alt="" class="w-90 br4 pointer" />
+          </div>
+
+          <!-- mobile mentor info -->
+          <div class="db dn-l">
+            <div class="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
+              <p class="f3">THANG LUONG</p>
+              <div class="w-100 bb b--white-50 mt3 mb2"></div>
+              <p class="fw2 lh-copy tracked">
+                Research scientist at Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he
+                built state-of-the-art machine translation systems at both Google and Stanford. Dr. Luong is an expert
+                in natural language processing and deep learning, authoring over 40 highly-cited scientific articles, 10
+                patents, and many popular open-source projects. He is an inventor of LuongAttention, NoisyStudent, and
+                Google Meena chatbot.
+              </p>
+              <p class="mt3 pc-yellow tracked ttu">READ MORE</p>
+            </div>
+          </div>
+
+          <div class="w-100 w-25-l tc pv2 pv0-l">
+            <img src="images/m_thucvu.png" alt="" class="w-90 br4 pointer" />
+          </div>
+
+          <!-- mobile mentor info -->
+          <div class="db dn-l">
+            <div class="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
+              <p class="f3">Thuc Vu</p>
+              <div class="w-100 bb b--white-50 mt3 mb2"></div>
+              <p class="fw2 lh-copy tracked">
+                Dr. Thuc Vu is Co-founder/CEO at OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy
+                which were acquired by Google and Weeby.co, respectively. Thuc has deep expertise in game theory,
+                machine learning, tournament design and multi-agent systems. He earned his PhD from Stanford University
+                and a Bachelor of Science from Carnegie Mellon, both in computer science. Apart from being an
+                entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of
+                Vietnam National University.
+              </p>
+              <p class="mt3 pc-yellow tracked ttu">READ MORE</p>
+            </div>
+          </div>
+
+          <div class="w-100 w-25-l tc pv2 pv0-l">
+            <img src="images/m_vuvan.png" alt="" class="w-90 br4 pointer" />
+          </div>
+
+          <!-- mobile mentor info -->
+          <div class="db dn-l">
+            <div class="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
+              <p class="f3">Vu Van</p>
+              <div class="w-100 bb b--white-50 mt3 mb2"></div>
+              <p class="fw2 lh-copy tracked">
+                Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur. Passion
+                in edtech and how we can use technology to change education landscape, and make education accessible to
+                all & at high quality.
+              </p>
+              <p class="mt3 pc-yellow tracked ttu">READ MORE</p>
+            </div>
+          </div>
+
+          <!-- <div class="w-100 w-25-l tc tr-l pv2 pv0-l">
+            <img src="images/mentoships.png" alt="" class="w-90 br4 pointer" />
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- modal desktop mentoship info -->
+
+    <div class="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
+      <p class="_btn-close white pointer tr absolute top-1 right-1">X</p>
+
+      <img src="images/m_thangluong.png" alt="" class="br4 w-25" />
+
+      <div class="w-60 pr4">
+        <p class="_mentor-name f2 lh-copy">THẮNG LƯƠNG</p>
+        <p class="_mentor-title lh-copy">PhD at NYD</p>
+
+        <p class="_mentor-info lh-copy mt3">
+          Research scientist at Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built
+          state-of-the-art machine translation systems at both Google and Stanford. Dr. Luong is an expert in natural
+          language processing and deep learning, authoring over 40 highly-cited scientific articles, 10 patents, and
+          many popular open-source projects. He is an inventor of LuongAttention, NoisyStudent, and Google Meena
+          chatbot.
+        </p>
+      </div>
+    </div>
+
+    <!-- thuc vu -->
+    <div class="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
+      <p class="_btn-close white pointer tr absolute top-1 right-1">X</p>
+
+      <img src="images/m_thucvu.png" alt="" class="br4 w-25" />
+
+      <div class="w-60 pr4">
+        <p class="_mentor-name f2 lh-copy">THỨC VŨ</p>
+        <p class="_mentor-title lh-copy">Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..</p>
+
+        <p class="_mentor-info lh-copy mt3">
+          Dr. Thuc Vu is Co-founder/CEO at OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which
+          were acquired by Google and Weeby.co, respectively. Thuc has deep expertise in game theory, machine learning,
+          tournament design and multi-agent systems. He earned his PhD from Stanford University and a Bachelor of
+          Science from Carnegie Mellon, both in computer science. Apart from being an entrepreneur, Thuc is also a
+          Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University.
+        </p>
+      </div>
+    </div>
+
+    <!-- Vũ Văn -->
+    <div class="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
+      <p class="_btn-close white pointer tr absolute top-1 right-1">X</p>
+
+      <img src="images/m_vuvan.png" alt="" class="br4 w-25" />
+
+      <div class="w-60 pr4">
+        <p class="_mentor-name f2 lh-copy">VŨ VĂN</p>
+        <p class="_mentor-title lh-copy">Co-founder/CEO of ELSA</p>
+
+        <p class="_mentor-info lh-copy mt3">
+          Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur. Passion in
+          edtech and how we can use technology to change education landscape, and make education accessible to all & at
+          high quality.
+        </p>
+      </div>
+    </div>
+
+    <!-- end mentoship -->
+
+    <!-- dang ky -->
+    <!-- mobile đang ky -->
+    <div class="w-100 tc mt4">
+      <p class="pc-green f5 fw6 tracked-mega">SELECTION PROCESS</p>
+
+      <!-- mobile process -->
+      <div
+        class="
+          flex
+          dn-l
+          items-start
+          justify-between
+          w-90
+          center
+          tracked
+          mb3
+          pv3
+          ph4
+          ph5-l
+          br3
+          mt4
+          ba
+          b--black-20
+          pointer
+          lh-copy
+          b
+          cau-hoi
+          ttu
+        "
+      >
+        <p>1 - Đăng ký</p>
+        <img src="images/svg_arrow_down.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+      </div>
+
+      <!-- todo -->
+      <div class="_desktop-progress dn flex-l w-80 center mt4 relative">
+        <!-- <div class="w-100 mh3 bt b--black-30 absolute top-1 center tc z-0"></div> -->
+        <div class="w-25 flex flex-column items-center">
+          <div class="f4 fw5 pc-dark-gray w25 h25 flex bg-black-10 items-center justify-center br-100 pointer">1</div>
+          <p class="f6 pc-dark-gray fw6 mt3">Registration (May 3 - May15)</p>
+        </div>
+        <div class="w-25 flex flex-column items-center">
+          <div class="f4 fw5 pc-dark-gray w25 h25 flex bg-black-10 items-center justify-center br-100 pointer">2</div>
+          <p class="f6 pc-dark-gray fw6 mt3">Screening (May16 - May19)</p>
+        </div>
+        <div class="w-25 flex flex-column items-center">
+          <div class="f4 fw5 pc-dark-gray w25 h25 flex bg-black-10 items-center justify-center br-100 pointer">3</div>
+          <p class="f6 pc-dark-gray fw6 mt3">Interview (May 21, 22, 28 & 29)</p>
+        </div>
+        <div class="w-25 flex flex-column items-center">
+          <div class="f4 fw5 pc-dark-gray w25 h25 flex bg-black-10 items-center justify-center br-100 pointer">4</div>
+          <p class="f6 pc-dark-gray fw6 mt3">Final companies confirmed (June 5)</p>
+        </div>
+      </div>
+
+      <p class="_title f3 fw6 pc-red ttu tracked tc mt4">Registration (May 3 - May15)</p>
+      <p class="pt4 f5 pc-light-black lh-copy w-90 w-60-l center">
+        Click APPLY (hyperlink) to fill the registration form. In this form, we expect to learn more about your company,
+        milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at
+        your best effort. <br />For us to fully evaluate the company's potential, we expect to get detailed answers
+        jointly by the CEO (for business) and CTO (for tech). Only 1 submission per company.
+      </p>
+    </div>
+
+    <div class="dn flex-l w-100 justify-center mt5 mb6 relative">
+      <div class="w-20 z-1">
+        <img src="images/dangky.png" alt="" class="w-100 br5 top--3" />
+      </div>
+      <div class="w-40 pl5 z-1 pt7">
+        <p class="f2 fw6 lh-copy tracked-mega pc-near-white">
+          MORE QUESTION ABOUT<br />
+          THE PROGRAM?
+        </p>
+        <p class="f6 fw5 lh-copy tracked mt3 pc-near-white">
+          Schedule a call or email Alex, our Admission Manager, who will help you think through the decision.
+        </p>
+
+        <div class="mt3">
+          <div class="bg-pc-green dib br3 ph4 pv3 f6 fw6 tracked pc-white">SCHEDULE A CALL</div>
+          <div class="dib br3 ph4 pv3 f6 fw6 tracked pc-white ba b--near-white ml3">EMAIL ALEX</div>
+        </div>
+      </div>
+
+      <div class="bg-pc-red w-100 h-100 absolute z-0 top-4"></div>
+    </div>
+
+    <!-- <img src="./layout/block_5_dangky.png" alt="" class="dn dn-m db-l w-100" /> -->
+    <!-- end dang ky -->
+
+    <!-- tuition -->
+
+    <div class="w-100 flex dn-l flex-column mt5">
+      <div class="w-100 flex relative">
+        <img src="images/dangky.png" alt="" class="w-80 br3 center z-1" />
+        <div class="w-100 h-50 absolute bottom-0 bg-pc-red z-0"></div>
+      </div>
+
+      <div class="w-100 bg-pc-red center pv4">
+        <p class="w-80 center pc-white f3 mv3 pc-red ttu tl">APPLY FOR THE FIRST BATCH</p>
+
+        <p class="w-80 center f6 fw5 lh-copy tracked mt3 pc-near-white">
+          Want to become the next gen AI companies? Nominate your company.
+        </p>
+
+        <div class="mt3 w-80 center">
+          <div class="bg-pc-green dib br3 ph4 pv3 f6 fw6 tracked pc-white">SCHEDULE A CALL</div>
+
+          <div class="dib br3 ph4 pv3 f6 fw6 tracked pc-white ba b--near-white mt3">EMAIL ALEX</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile tuition -->
+    <img src="./layout/mb_6_tuition.png" alt="" class="db db-m dn-l w-100" />
+
+    <!-- desktop tuition -->
+    <div class="w-100 db-l">
+      <div class="w-90 w-60-l center tc pv3">
+        <p class="_title f2 fw6 pc-red ttu tracked-mega">TUITION</p>
+
+        <p class="pt4 f5 pc-light-black lh-copy w-100 w-70-l center">
+          Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.
+        </p>
+
+        <div class="w-100 center mt6-l mt5 flex flex-column flex-row-l">
+          <div class="_cot1 w-100 w-25-l ph2 pr3-l mt4 mt0-l">
+            <div class="bg-pc-near-white ph4 pv4 br4">
+              <div class="f3 fw6 pc-black">
+                LOREM IPSUM <br />
+                DOLOR SIT
+              </div>
+
+              <div class="f6 fw5 pt4 lh-copy pc-light-black tl tracked">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </div>
+
+              <div class="_price f2 fw7 pc-black mt3">$7000</div>
+              <div class="_price f3 fw6 pc-near-black fw mt3 strike">$12000</div>
+            </div>
+          </div>
+
+          <div class="_cot1 w-100 w-25-l ph2 relative-l mt4 mt0-l">
+            <div class="bg-pc-red br4 ph4 mh2-l left-0 pv4 absolute-l top--3">
+              <div class="f3 fw6 pc-white">
+                LOREM IPSUM <br />
+                DOLOR SIT
+              </div>
+
+              <div class="f6 fw5 pt4 lh-copy pc-pink-white tl tracked">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </div>
+
+              <div class="_price f2 fw7 pc-white mt3">$7000</div>
+              <div class="_price f3 fw6 pc-pink-white fw mt3 strike">$12000</div>
+            </div>
+          </div>
+
+          <div class="_cot1 w-100 w-25-l ph2 mt4 mt0-l relative">
+            <div class="dib ph3 pv2 br3 absolute top--1 left-1 bg-pc-pink pc-near-white">NEW</div>
+            <div class="bg-pc-near-white pv4 ph4 br4">
+              <div class="f3 fw6 pc-black">
+                LOREM IPSUM <br />
+                DOLOR SIT
+              </div>
+
+              <div class="f6 fw5 pt4 lh-copy pc-light-black tl tracked">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </div>
+
+              <div class="_price f2 fw7 pc-black mt3">$7000</div>
+              <div class="_price f3 fw6 pc-near-black fw mt3 strike">$12000</div>
+            </div>
+          </div>
+
+          <div class="_cot1 w-100 w-25-l ph2 pl3-l mt4 mt0-l">
+            <div class="bg-pc-near-white pv4 ph4 br4">
+              <div class="f3 fw6 pc-black">
+                LOREM IPSUM <br />
+                DOLOR SIT
+              </div>
+
+              <div class="f6 fw5 pt4 lh-copy pc-light-black tl tracked">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </div>
+
+              <div class="_price f2 fw7 pc-black mt3">$7000</div>
+              <div class="_price f3 fw6 pc-near-black fw mt3 strike">$12000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end tuition -->
+
+    <div class="dn db-l center w-60 bg-pc-red br3 ph4 pv6 tc pc-white mt5">
+      <p class="f2 ttu tracked fw6">APPLY FOR THE FIRST BATCH</p>
+      <p class="f6 tracked fw3 mt4">Want to be come the next gen AI companies? Nominate your company.</p>
+      <div class="dib bg-pc-green ph5 pv3 br3 white fw5 f6 pointer dim mt5">APPLY</div>
+    </div>
+
+    <!-- partner -->
+    <div class="w-100 bg-near-white pv3 mt5">
+      <div class="w-70 tc center">
+        <p class="_partner-title f2 fw6 tracked pc-red pv4">PARTNERS</p>
+        <div class="pv3 flex flex-wrap justify-around">
+          <img src="images/svg_logo1.svg" class="w-40 w-30-m w-10-l mv3" />
+          <img src="images/svg_logo2.svg" class="w-40 w-30-m w-10-l mv3" />
+          <img src="images/svg_logo3.svg" class="w-40 w-30-m w-10-l mv3" />
+          <img src="images/svg_logo1.svg" class="w-40 w-30-m w-10-l mv3" />
+          <img src="images/svg_logo2.svg" class="w-40 w-30-m w-10-l mv3" />
+          <img src="images/svg_logo3.svg" class="w-40 w-30-m w-10-l mv3" />
+        </div>
+      </div>
+    </div>
+    <!-- end partner -->
+
+    <!-- qa -->
+    <div class="w-100">
+      <div class="w-100 w-70-l center flex flex-column items-center">
+        <p class="_qa-title f2 fw6 tracked pc-red pv4">Q&A</p>
+
+        <!-- c1 -->
+        <div
+          class="
+            w-90 w-100-l
+            tracked
+            pv3
+            ph3
+            ph5-l
+            br4
+            ba
+            b--black-20
+            flex
+            pointer
+            lh-copy
+            b
+            pointer
+            cau-hoi-active
+            mb0
+            justify-between
+            br--top
+            items-start
+          "
+        >
+          <p>What is pre-requisite criteria for the first batch?</p>
+          <img src="images/svg_arrow_up.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+        </div>
+
+        <div class="w-90 w-100-l pv3 ph3 ph5-l br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3">
+          <ol>
+            <li>Potential to apply AI to reach 10-100x returns.</li>
+            <li>Executive willingness & tech team qualification. (Are you excited about learning to apply AI?</li>
+
+            <li>Can they execute what we advise in the next 6 months? Post-launch companies</li>
+          </ol>
+        </div>
+
+        <!-- c2 -->
+        <div
+          class="
+            w-90 w-100-l
+            tracked
+            pv3
+            ph3
+            ph5-l
+            br4
+            ba
+            b--black-20
+            flex
+            pointer
+            lh-copy
+            b
+            pointer
+            cau-hoi-active
+            mb0
+            justify-between
+            br--top
+            items-start
+          "
+        >
+          <p>How to apply?</p>
+          <img src="images/svg_arrow_up.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+        </div>
+
+        <div class="w-90 w-100-l pv3 ph3 ph5-l br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3">
+          Click here for the whole selection process review or click here to apply
+        </div>
+
+        <!-- c3 -->
+        <div
+          class="
+            w-90 w-100-l
+            tracked
+            pv3
+            ph3
+            ph5-l
+            br4
+            ba
+            b--black-20
+            flex
+            pointer
+            lh-copy
+            b
+            pointer
+            cau-hoi-active
+            mb0
+            justify-between
+            br--top
+            items-start
+          "
+        >
+          <p>Can we get funding (scholarship) for this AI Bootcamp?</p>
+          <img src="images/svg_arrow_up.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+        </div>
+
+        <div class="w-90 w-100-l pv3 ph3 ph5-l br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3">
+          Yes. We offer conditional scholarships for outstanding startups, especially for social enterprises. Please
+          check it out to see if you meet the criteria.
+        </div>
+
+        <!-- c4 -->
+        <div
+          class="
+            w-90 w-100-l
+            tracked
+            pv3
+            ph3
+            ph5-l
+            br4
+            ba
+            b--black-20
+            flex
+            pointer
+            lh-copy
+            b
+            pointer
+            cau-hoi-active
+            mb0
+            justify-between
+            br--top
+            items-start
+          "
+        >
+          <p>How long does the AI Bootcamp take?</p>
+          <img src="images/svg_arrow_up.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+        </div>
+
+        <div class="w-90 w-100-l pv3 ph3 ph5-l br4 b--black-10 br--bottom black-90 cau-tra-loi ba mb3">
+          12 intensive weeks. You have to spend at least 3 full weekdays for 8 middle weeks of intensive training. The
+          other 2 weeks will be for one-on-one mentoring and final 2 weeks for prototype & demo showcase.
+        </div>
+
+        <div
+          class="w-90 w-100-l tracked mb3 pv3 ph3 ph5-l br4 ba b--black-20 flex pointer lh-copy b cau-hoi items-start"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio autem possimus molestias velit
+            cupiditate sed, asp?
+          </p>
+          <img src="images/svg_arrow_down.svg" alt="" class="w1 w2-l ml2 ml4-l mt2" />
+        </div>
+
+        <div class="bg-pc-green ph4 pv3 br3 white fw6 f7 ttu pointer dim">+ more questions</div>
+      </div>
+    </div>
+    <!-- end qa -->
+
+    <!-- footer -->
+    <div class="w-100 center pt3 pb4 ph4 flex justify-between bg-pc-red pc-white mb4 mb0-l mt3">
+      <img src="images/logo_white.svg" class="pr4 w25" />
+      <div class="lh-copy h-100 flex flex-column justify-between items-end">
+        <div class="">
+          <img src="images/instagram.svg" alt="" class="ml4" />
+          <img src="images/twitter.svg" alt="" class="ml4" />
+          <img src="images/fb.svg" alt="" class="ml4" />
+        </div>
+        <p class="copyright dn db-l mt3">Copyright 2010 @ VietAI</p>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- fixed bottom-0 z-5 -->
+    <div class="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer fixed bottom-0 z-5">APPLY NOW</div>
+  </body>
+</html>

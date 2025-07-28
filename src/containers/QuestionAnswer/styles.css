@@ -1,0 +1,10 @@
+.cauTraLoi {
+  transition: 'all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1)';
+  overflow: hidden;
+}
+
+.anCauTraLoi {
+  height: 0;
+  padding: 0px;
+  border: none;
+}
