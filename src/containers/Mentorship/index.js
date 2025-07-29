@@ -157,7 +157,7 @@ const DesktopMentorship = () => {
     <>
       <div
         id="desktop-mentorship"
-        className="dn flex-l flex-column w-80 center br3 pv2 ph3 white bg-pc-red"
+        className="dn flex-l flex-column w-80 center br3 pv2 ph3 white"
       >
         {/* <div className="w-100 flex justify-around">
           {groups.map((item, index) => (
