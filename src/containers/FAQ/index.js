@@ -40,7 +40,7 @@ const FAQ = () => {
   return (
     <section id="faq" className="block-pt-pb ">
       <div className="w-container center">
-        <h2 className="f2 fw7 tc mb4">FREQUENTLY ASKED QUESTIONS</h2>
+        <h2 className="f2 fw7 tc mb4 tracked-l mb4">FREQUENTLY ASKED QUESTIONS</h2>
         
         <div className="flex flex-column">
           {faqData.map((item, index) => (
@@ -49,7 +49,7 @@ const FAQ = () => {
                 className="bg-white pa3 faq-question flex justify-between items-center"
                 onClick={() => toggleItem(index)}
               >
-                <h3 className="f5 fw6 ma0">{item.question}</h3>
+                <h3 className="f4 fw6 ma0">{item.question}</h3>
                 <span className={`f4 fw6 faq-toggle ${openItem === index ? 'open' : ''}`}>
                   {openItem === index ? '−' : '+'}
                 </span>

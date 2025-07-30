@@ -28,8 +28,7 @@ function App() {
       
       <What id={menu.program.id} />
       <Mentorships id={menu.aiexpertnetwork.id} title="AI EXPERT NETWORK" />
-      <Vision id={menu.transformation.id} />      
-      <Challenges id={menu.why.id} />
+      <Vision id={menu.transformation.id} />    
       <Fee id={menu.tuitionfee.id} />
       <WhatStartupSay />
      

@@ -107,7 +107,7 @@
   .timeline-item {
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     width: 100%;
   }
   
@@ -132,6 +132,7 @@
   .timeline-item-left .timeline-content, .timeline-item-right .timeline-content{
     margin-bottom: 0 !important;
     margin-top: 0 !important;
+    padding-bottom: 0px;
   }
   .timeline-item-center .timeline-content{
     margin-top: 0 !important;

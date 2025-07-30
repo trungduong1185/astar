@@ -52,7 +52,7 @@ const MobileMentorShip = () => {
                 <>
                   <div className="w-100 pt3">
                     <div id={mentor.id} />
-                    <div className="relative">
+                    <div className="relative img-background-mentorship">
                       <Link
                         to={mentor.id}
                         spy={true}
@@ -183,17 +183,17 @@ const DesktopMentorship = () => {
           </p>*/}
           <div className="mentorship-grid mt0">
             {mentors.map((item) => (
-              <div className="pv0">
+              <div className="pv0 img-background-mentorship">
                 <div className="hover-item pv0 ">
                   <img
                     src={'images/' + item.image}
                     alt=""
                     className="w-100 br0 h-100 mv0 pv0"
-                    style={{height: 414, objectFit: 'cover'}}
+                    style={{height: 320, objectFit: 'cover'}}
                   />
 
                   <div className="fixed_name flex flex-row items-baseline">
-                    <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
+                    <div className="h1 w15 bg-pc-red db mr2 o-70"></div>
                     <p className="pc-near-white f4 fw6 nowrap dib" style={{whiteSpace: 'pre-line'}}>
                       {item.name}
                     </p>
@@ -224,21 +224,26 @@ const DesktopMentorship = () => {
                 setActiveMentorId(0);
               }}
             >
-              <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
+              <div 
+                className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around "
+                onClick={(e) => {
+                  e.stopPropagation();
+                }}
+              >
                 <p
                   className="_btn-close white pointer tr absolute top-1 right-1"
                   onClick={() => {
                     setActiveMentorId(0);
                   }}
                 >
-                  X
+                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1033 15.7097C17.2882 15.8947 17.3921 16.1455 17.3921 16.407C17.3921 16.6685 17.2882 16.9193 17.1033 17.1043C16.9183 17.2892 16.6675 17.3931 16.406 17.3931C16.1445 17.3931 15.8937 17.2892 15.7087 17.1043L10.5006 11.8945L5.29077 17.1026C5.10584 17.2876 4.85503 17.3914 4.5935 17.3914C4.33198 17.3914 4.08117 17.2876 3.89624 17.1026C3.71131 16.9177 3.60742 16.6669 3.60742 16.4054C3.60742 16.1438 3.71131 15.893 3.89624 15.7081L9.10604 10.4999L3.89788 5.29013C3.71295 5.1052 3.60906 4.85439 3.60906 4.59286C3.60906 4.33133 3.71295 4.08052 3.89788 3.89559C4.08281 3.71067 4.33362 3.60678 4.59514 3.60678C4.85667 3.60678 5.10748 3.71067 5.29241 3.89559L10.5006 9.1054L15.7104 3.89477C15.8953 3.70985 16.1461 3.60596 16.4076 3.60596C16.6692 3.60596 16.92 3.70985 17.1049 3.89477C17.2898 4.0797 17.3937 4.33051 17.3937 4.59204C17.3937 4.85356 17.2898 5.10438 17.1049 5.28931L11.8951 10.4999L17.1033 15.7097Z" fill="#FDEDED"/></svg>
                 </p>
 
                 {mentors
                   .filter((item) => item.id === activeMentorId)
                   .map((item) => (
                     <>
-                      <div className="w-25 pt3">
+                      <div className="w-25 pt3 img-background-mentorship flex">
                         <img
                           src={`images/${item.image}`}
                           alt=""

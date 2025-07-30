@@ -4,8 +4,8 @@ import './styles.scss';
 
 const Fee = ({ id }) => {
     return (
-        <section id={id} className="bg-white w-container">
-            <div className=" center w-100 ph3 pt0 pb3 bb b--pink-white">
+        <section id={id} className="bg-white w-container block-pt-pb bg-white">
+            <div className=" center w-100 ph3 pt0 pb3">
                 {/* Title Section */}
                 <div className="mb4">
                     <p className="f5 pc-red mb2">Tuition Fee</p>
@@ -14,9 +14,21 @@ const Fee = ({ id }) => {
                         <span className="pc-red">Up to 100% Coverage</span>
                     </h2>
                 </div>
-
+                {/* Official Tuition Fee Section */}
+                <div className="bg-white green-week-box br3 pa5 pb4 mb4">
+                    <div className="tc">
+                        <h3 className="f4 fw7 pc-dark-gray mb3">Official Tuition Fee</h3>
+                        <div className="f1 fw7 pc-red mb2">~$2000</div>
+                        <p className="f5 pc-dark-gray mb4">
+                            We are committed to making high-quality AI education accessible through merit-based scholarships.
+                        </p>
+                        <button className="bg-pc-red  pc-near-white dib  ph4 pv3 br3  fw7 f4 pointer dim">
+                            APPLY NOW
+                        </button>
+                    </div>
+                </div>
                 {/* Scholarship Coverage Cards */}
-                <div className="flex flex-column flex-row-l mb4" style={{gap: '24px'}}>
+                <div className="flex flex-column flex-row-l " style={{gap: '24px'}}>
                     {/* Large 100% Card - Left Column */}
                      <div className="w-100 w-50-l bg-white br3 pa4 mr0 pink-week-box flex items-center justify-center">
                          <div className="tc">
@@ -56,20 +68,7 @@ const Fee = ({ id }) => {
                      </div>
                 </div>
 
-                {/* Official Tuition Fee Section */}
-                <div className="bg-white green-week-box br3 pa5 pb4">
-                    <div className="tc">
-                        <h3 className="f4 fw7 pc-dark-gray mb3">Official Tuition Fee</h3>
-                        <div className="f1 fw7 pc-red mb2">50,000,000₫</div>
-                        <div className="f5 pc-dark-gray mb4">(~$2K)</div>
-                        <p className="f5 pc-dark-gray mb4">
-                            We are committed to making high-quality AI education accessible through merit-based scholarships.
-                        </p>
-                        <button className="bg-pc-red  pc-near-white dib  ph4 pv3 br3  fw7 f4 pointer dim">
-                            APPLY NOW
-                        </button>
-                    </div>
-                </div>
+                
 
                 {/* Scholarship Criteria Section */}
                 <div className="bg-white block-scholarship-criteria br3">

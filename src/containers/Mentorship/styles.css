@@ -19,7 +19,13 @@
   grid-template-columns: repeat(1, 1fr);
   gap: 32px;
 }
-
+.img-background-mentorship{
+  background: #F9BABA;
+}
+.mentors-title{
+  list-style: disc;
+  padding-left: 20px;;
+}
 /* Tablet */
 @media (min-width: 768px) {
   .mentorship-grid {
@@ -30,6 +36,6 @@
 /* Desktop */
 @media (min-width: 1024px) {
   .mentorship-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
