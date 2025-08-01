@@ -1,0 +1,22 @@
+.block-scholarship-criteria{
+    padding: 32px 0 0 0;
+}
+.bg-red-5{
+    background-color: #FDEDED;
+    color: #211F26;
+}
+.details-list-scholarship{
+    list-style:disc;
+    padding: 0 0 0 1rem;
+    margin-bottom: 1rem;
+    li{
+        margin-bottom: 0.7rem;
+    }
+}
+@media (max-width: 768px) {
+    .block-scholarship-criteria{
+        padding: 32px 0  0  0;
+    }
+    #tuition_fee{padding-top: 64px;}
+}
+

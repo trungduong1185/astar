@@ -1,0 +1,21 @@
+/* Vision Grid */
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  justify-items: center;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .vision-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .vision-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 
