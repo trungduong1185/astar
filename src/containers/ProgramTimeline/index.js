@@ -8,7 +8,7 @@ const ProgramTimeline = ({ id }) => {
     {
       month: '30 July - 17 August',
       title: 'Recruitment',
-      description: 'Application period and candidate selection process',
+      description: ['<b>Aug 10:</b> deadline to apply', '<b>Aug 12:</b> entrance test for selected candidates', '<b>Aug 14-16:</b> interviews for selected candidates'],
       position: 'left'
     },
     {
@@ -42,7 +42,15 @@ const ProgramTimeline = ({ id }) => {
                 <div className="timeline-content">
                   <div className="timeline-month red f4 fw6 ttu tracked">{item.month}</div>
                   <h3 className="timeline-title f3 fw7 mb2">{item.title}</h3>
-                  <p className="timeline-description f5 gray lh-copy">{item.description}</p>
+                                     <div className="timeline-description f5 gray lh-copy">
+                     {Array.isArray(item.description) ? (
+                       item.description.map((line, lineIndex) => (
+                         <div key={lineIndex} dangerouslySetInnerHTML={{ __html: line }}></div>
+                       ))
+                     ) : (
+                       <div dangerouslySetInnerHTML={{ __html: item.description }}></div>
+                     )}
+                   </div>
                 </div>
               </div>
             ))}
