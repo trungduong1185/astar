@@ -233,19 +233,20 @@
                     "description": "Yi Tay is a Senior Staff Research Scientist at Google DeepMind, previously spending over three years at Google Brain Singapore, where he contributed to cutting-edge research on large language models (LLMs) and NLP. He is also a co-founder of Reka AI, where his team developed Reka Core, a model that ranked in the top 5 on LMsys and competed with GPT-4 under limited resources.<br>Yi Tay’s work explores emergent abilities, scaling laws, and the science behind LLMs, combining academic rigor with real-world applications. Passionate about advancing AI, he continues to push the boundaries of trustworthy, scalable, and efficient language models."
                 },
                 {
-                    "id": 5,
-                    "name": "Po-Shen Loh",
-                    "image": "m_2025_poshenloh.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Professor of Mathematics at Carnegie Mellon University</li><li class=\"i\">AStar Guest Lecturer</li></ul>",
-                    "description": "Po‑Shen Loh is a Professor of Mathematics at Carnegie Mellon University, a social entrepreneur, and Vice President of the IMO Foundation. From 2013 to 2023, he served as national coach of the USA International Mathematical Olympiad team, guiding them to multiple first‑place victories. Loh also founded Expii, a free AI‑powered math education platform, and developed NOVID, a pandemic‑control app built on innovative network theory. His research spans combinatorics, probability theory, and computer science, and he has been recognized with honours including the Presidential Early Career Award for Scientists and Engineers. Loh travels globally, engaging over 10,000 people annually with lectures and creative problem‑solving courses."
-                },
-                {
                     "id": 11,
                     "name": "Graham Neubig",
                     "image": "m_2025_graham_neubig.webp",
                     "title": "<ul class=\"mentors-title\"><li>Associate Professor at School of Computer Science, Carnegie Mellon University</li><li class=\"i\">AStar Guest Lecturer</li></ul>",
                     "description": "Graham Neubig is an Associate Professor at the Language Technology Institute, School of Computer Science, Carnegie Mellon University, and serves as Chief Scientist at All Hands AI. He leads NeuLab, focusing on advancing machine learning and natural language processing (NLP) through foundational research and practical systems. His expertise spans multilingual language processing, question answering, code generation, and interpretable learning. Neubig has also developed widely used open-source software for NLP applications and regularly shares class and tutorial notes to support the community. He is known for delivering invited talks on LLM-powered agents and model evaluation at leading venues including CMU, Stanford, and UIUC."
                 },
+                {
+                    "id": 5,
+                    "name": "Po-Shen Loh",
+                    "image": "m_2025_poshenloh.webp",
+                    "title": "<ul class=\"mentors-title\"><li>Professor of Mathematics at Carnegie Mellon University</li><li class=\"i\">AStar Guest Lecturer on Leadership</li></ul>",
+                    "description": "Po‑Shen Loh is a Professor of Mathematics at Carnegie Mellon University, a social entrepreneur, and Vice President of the IMO Foundation. From 2013 to 2023, he served as national coach of the USA International Mathematical Olympiad team, guiding them to multiple first‑place victories. Loh also founded Expii, a free AI‑powered math education platform, and developed NOVID, a pandemic‑control app built on innovative network theory. His research spans combinatorics, probability theory, and computer science, and he has been recognized with honours including the Presidential Early Career Award for Scientists and Engineers. Loh travels globally, engaging over 10,000 people annually with lectures and creative problem‑solving courses."
+                },
+               
                 {
                     "id": 6,
                     "name": "Dr. Tiep Nguyen",

@@ -87,7 +87,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
     <div
       id="desktop-count-down"
       className="dn dn-m flex-l w-100 bg-black-20 vh-100 items-center justify-around cover"
-      style={{ backgroundImage: "url('images/bg_nti_ai_bootcamp.png')" }}
+      style={{ backgroundImage: "url('images/bg_nti_ai_bootcamp.webp')", backgroundPosition: 'center' }}
     >
       <div className="flex flex-column relative">
         {/* <img

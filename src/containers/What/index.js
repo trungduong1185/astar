@@ -8,9 +8,9 @@ const What = ({ id }) => {
   var isMobile = useMediaQuery('(max-width: 768px)');
 
   const toggleCol_1 =
-    selectedId === 1 ? (isMobile ? 'db w-100' : 'db w-100 w-50-l') : (isMobile ? 'dn' : 'dn db-l w-50-l');
+    selectedId === 1 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
   const toggleCol_2 =
-    selectedId === 2 ? (isMobile ? 'db w-100' : 'db w-100 w-50-l') : (isMobile ? 'dn' : 'dn db-l w-50-l');
+    selectedId === 2 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
 
   return (
     <div className="w-100 bg-program lh-copy block-pt-pb">
