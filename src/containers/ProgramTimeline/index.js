@@ -12,7 +12,7 @@ const ProgramTimeline = ({ id }) => {
       position: 'left'
     },
     {
-      month: '25 Aug - 14 Nov',
+      month: '25 August - 14 NOVEMBER',
       title: 'Official Program',
       description: '12-week intensive training and project development',
       position: 'center'

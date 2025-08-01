@@ -4,18 +4,17 @@ import './css/styles.css';
 import Menu from './containers/Menu';
 import CountDown from './containers/countDown';
 import Vision from './containers/Vision';
-import Challenges from './containers/Challenges';
 import Mentorships from './containers/Mentorship';
 import Apply from './containers/Apply';
 import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
 import What from './containers/What';
-import WhatStartupSay from './containers/WhatStartupSay';
 import Fee from './containers/Fee';
 import About from './containers/About';
 import ProgramTimeline from './containers/ProgramTimeline';
 import FAQ from './containers/FAQ';
+import Partners from './containers/partners';
 
 function App() {
   return (
@@ -30,13 +29,12 @@ function App() {
       <Mentorships id={menu.aiexpertnetwork.id} title="AI EXPERT NETWORK" />
       <Vision id={menu.transformation.id} />    
       <Fee id={menu.tuitionfee.id} />
-      <WhatStartupSay />
      
       <FAQ id={menu.faq.id} />
+      <Partners />
       {/* <Process /> */}
       <Apply />
-      {/* <Partners />
-      <QA id={menu.qa.id} /> */}
+     
       <Footer />
     </div>
   );

@@ -10,6 +10,11 @@ h1 {
   font-size: 2em;
   margin: .67em 0
 }
+.font-body{
+  font-family: 'Lato', sans-serif;
+  line-height: 140%;
+  font-weight: 500;;
+}
 hr {
   box-sizing: content-box;
   height: 0;

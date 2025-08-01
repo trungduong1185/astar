@@ -40,7 +40,7 @@ const FAQ = () => {
   return (
     <section id="faq" className="block-pt-pb ">
       <div className="w-container center">
-        <h2 className="f2 fw7 tc mb4 tracked-l mb4">FREQUENTLY ASKED QUESTIONS</h2>
+        <h2 className="f2 fw7 tc mb4 tracked-l mb5">FREQUENTLY ASKED QUESTIONS</h2>
         
         <div className="flex flex-column">
           {faqData.map((item, index) => (
@@ -61,16 +61,6 @@ const FAQ = () => {
               )}
             </div>
           ))}
-        </div>
-        
-        <div className="tc mt5">
-          <p className="f5 mb3">Still have questions?</p>
-          <a 
-            href="mailto:contact@newturing.ai" 
-            className="bg-red white pa3 br2 fw6 text-decoration-none dim dib"
-          >
-            Contact Us
-          </a>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ const ApplyButton = () => {
 const RedApplyButton = () => {
   return (
     <div
-      className="bg-pc-red  pc-near-white dib  ph6 pv3 br3  fw7 f4 pointer dim mt5"
+      className="bg-pc-red  pc-near-white dib  ph6 pv3 br3  fw7 f4 pointer dim "
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW

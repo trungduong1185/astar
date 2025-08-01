@@ -121,14 +121,7 @@ const Menu = () => {
               rel="noreferrer"
             >
               <img src="images/nti_horizontal_logo.png?v=1" alt="" className="h22 db" />
-            </a>
-            <a href='https://vietai.org/' target='_blank' className="pointer db" rel="noreferrer">
-            <img
-              src="images/vietai_logo_white.png?v=2"
-              alt=""
-              className="h2 bl b--black-10"
-            />
-          </a>
+            </a>           
           </div>
 
           <div className="flex items-center">

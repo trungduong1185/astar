@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   font-family: 'Lexend', sans-serif;
+  line-height: 140%;
 }
 
 .block-pt-pb{
@@ -26,7 +28,7 @@
   .block-mt-mb{
     margin: 48px auto;
   }
-  #tuition_fee{padding-top: 96px;}
+
   .w-container{
     width: 100%;
   }
@@ -149,15 +151,28 @@
   padding: 1rem;
 }
 
-.lexend {
-  font-family: 'Lexend', sans-serif;
+.lato {
+  font-family: 'Lato', sans-serif;
 }
 
-.poppins {
-  font-family: 'Poppins', sans-serif;
+.lato-light {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
-.tangergin {
-  font-family: 'Tangerine', cursive;
+
+.lato-regular {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.lato-bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.lato-black {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
 
 /* colors */
@@ -540,4 +555,30 @@ _qa-title
   .container-1400 {
     padding: 0 15px;
   }
+  .flex-mobile-show{
+    display: flex;
+  }
+}
+
+.bg-dark-blue {
+  background-color: #1A2035;
+}
+
+.bg-blue {
+  background-color: #0077B5;
+}
+
+.b--light-gray {
+  border-color: #E5E7EB;
+}
+.list-partner-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 32px var(--spacing-6xl, 32px);
+  flex-wrap: wrap;
+}
+.partner-element img {
+  height: 60px;
 }

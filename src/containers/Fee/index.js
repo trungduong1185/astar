@@ -1,6 +1,7 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import './styles.scss';
+import data from '../../assets/data.json';
 
 const Fee = ({ id }) => {
     return (
@@ -9,70 +10,34 @@ const Fee = ({ id }) => {
                 {/* Title Section */}
                 <div className="mb4">
                     <p className="f5 pc-red mb2">Tuition Fee</p>
-                    <h2 className="f3 f2-l fw7 pc-red ttu tracked-l ">
-                        <span className="pc-dark-gray">Scholarships Available: </span>
+                    <h2 className="f2 f2-l fw7 pc-red ttu tracked-l ">
+                        <span className="pc-black">Scholarships Available: </span>
                         <span className="pc-red">Up to 100% Coverage</span>
                     </h2>
                 </div>
                 {/* Official Tuition Fee Section */}
-                <div className="bg-white green-week-box br3 pa5 pb4 mb4">
+                <div className="bg-white pink-week-box br3 pa5 pb4">
                     <div className="tc">
-                        <h3 className="f4 fw7 pc-dark-gray mb3">Official Tuition Fee</h3>
-                        <div className="f1 fw7 pc-red mb2">~$2000</div>
+                        <h3 className="f3 fw7 pc-dark-gray mb3">Official Tuition Fee</h3>
+                        <div className="f1 fw7 pc-red mb2">2K$</div>
                         <p className="f5 pc-dark-gray mb4">
                             We are committed to making high-quality AI education accessible through merit-based scholarships.
                         </p>
-                        <button className="bg-pc-red  pc-near-white dib  ph4 pv3 br3  fw7 f4 pointer dim">
+                        <a 
+                            href={data.register_link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-pc-red pc-near-white dib ph4 pv3 br3 fw7 f4 pointer dim no-underline"
+                        >
                             APPLY NOW
-                        </button>
+                        </a>
                     </div>
                 </div>
-                {/* Scholarship Coverage Cards */}
-                <div className="flex flex-column flex-row-l " style={{gap: '24px'}}>
-                    {/* Large 100% Card - Left Column */}
-                     <div className="w-100 w-50-l bg-white br3 pa4 mr0 pink-week-box flex items-center justify-center">
-                         <div className="tc">
-                             <div className="f1 fw7 pc-red mb2">100%</div>
-                             <div className="f5 pc-dark-gray">Full Coverage</div>
-                         </div>
-                     </div>
-                    
-                                         {/* Smaller Cards Grid - Right Column */}
-                     <div className="w-100 w-50-l">
-                         <div className="flex flex-wrap" style={{gap: '24px'}}>
-                             <div className="w-50 bg-white br3 pink-week-box" style={{width: 'calc(50% - 12px)'}}>
-                                 <div className="tc">
-                                     <div className="f3 fw7 pc-red mb1">90%</div>
-                                     <div className="f6 pc-dark-gray">Outstanding Performance</div>
-                                 </div>
-                             </div>
-                             <div className="w-50 bg-white br3 pink-week-box" style={{width: 'calc(50% - 12px)'}}>
-                                 <div className="tc">
-                                     <div className="f3 fw7 pc-red mb1">80%</div>
-                                     <div className="f6 pc-dark-gray">High Achievement</div>
-                                 </div>
-                             </div>
-                             <div className="w-50 bg-white br3 pink-week-box" style={{width: 'calc(50% - 12px)'}}>
-                                 <div className="tc">
-                                     <div className="f3 fw7 pc-red mb1">60%</div>
-                                     <div className="f6 pc-dark-gray">Good Performance</div>
-                                 </div>
-                             </div>
-                             <div className="w-50 bg-white br3 pink-week-box" style={{width: 'calc(50% - 12px)'}}>
-                                 <div className="tc">
-                                     <div className="f3 fw7 pc-red mb1">50%</div>
-                                     <div className="f6 pc-dark-gray">Merit-Based</div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                </div>
-
-                
+                                
 
                 {/* Scholarship Criteria Section */}
                 <div className="bg-white block-scholarship-criteria br3">
-                    <h3 className="f4 fw7 pc-dark-gray mb4">Scholarship Criteria</h3>
+                    <h3 className="f4 fw7 pc-dark-gray mb3">Scholarship Criteria</h3>
                     <ul className="flex flex-column details-list-scholarship">
                             <li className="f5 pc-dark-gray ma0">
                                 Demonstrated academic excellence or research achievements (GPA 3.2 or above)

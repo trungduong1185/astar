@@ -8,13 +8,7 @@ const Footers = () => (
     <div className="w-100 center pt3 pb4 ph4 flex justify-between bg-pc-red pc-white mb4 mb0-l items-start">
       <div className="flex items-center justify-center">
         <img src="images/logo_nti_white.png" className="w25" alt="" />
-
-        <div className="flex flex-column  items-center ml1">
-          <p className="near-white" style={{ fontSize: '5px' }}>
-            Co-organizer
-          </p>
-          <img src="images/vietai_logo_co.png" alt="" className="w22" />
-        </div>
+        
       </div>
 
       <div className="lh-copy  flex flex-column justify-between items-end">

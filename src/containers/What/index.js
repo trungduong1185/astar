@@ -57,7 +57,7 @@ const What = ({ id }) => {
           </div>
 
           {/* desktop: no click no opacity */}
-          <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
+          <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4 mb4">
             <div className="w-40 ">
               <p className="pc-training fw7 ttu tc">State-of-the-art LLM Training</p>
             </div>
@@ -67,23 +67,13 @@ const What = ({ id }) => {
           </div>
 
           {/* <!-- CONTENT DETAIL --> */}
-          <div className='w-90 center'>
-            {/* <!-- phase 1 --> */}
-            <div className="w-100 flex justify-end pv2">
-              <div className="w-20 tc fw5"></div>
-
-              <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{ padding: '0 0 10px 0' }}>
-                <span className='f3 fw7'>A-STAR FOUNDATION</span>
-                <br />
-                (EARTH PHASE)
-              </div>
-            </div>
+          <div className='w-90 center'>           
               
             {/* <!-- week 1 2 --> */}
             <div className="w-100 flex justify-end pv2">
               <div className="w-20 tc fw5 flex flex-wrap">
-                <div className="w-100 h4">Week 1</div>
-                <div className={`w-100 h2 ${isMobile ? 'h5 mt4' : ''}`}>Week 2</div>
+                <div className={`w-100 ${isMobile ? ' h2 mt1' : 'h2'}`}>Week 1</div>
+                <div className={`w-100 ${isMobile ? ' h2 mt1' : 'h4'}`}>Week 2</div>
               </div>
               <div className="w-80 flex"> 
                 <div className={toggleCol_1 + 'flex-l flex-wrap  mr2-l'}>
@@ -104,7 +94,7 @@ const What = ({ id }) => {
                   </div>
                 </div>
 
-                <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
+                <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
                   <div className={'pink-week-box tc'}>
                     <span className="b">Individual Project brainstorming</span>
                     <br />
@@ -118,9 +108,9 @@ const What = ({ id }) => {
             {/* <!-- week 3 4 5 --> */}
             <div className="w-100 flex justify-end pv2">
               <div className="w-20 tc fw5 flex flex-wrap">
-                <div className="w-100 h4">Week 3</div>
-                <div className="w-100 h4 mt4">Week 4</div>
-                <div className="w-100 h2">Week 5</div>
+                <div className={`w-100 ${isMobile ? ' h4 mt1' : 'h4'}`}>Week 3</div>
+                <div className={`w-100 ${isMobile ? ' h3' : ' h4 mt3'}`}>Week 4</div>
+                <div className={`w-100 ${isMobile ? ' h2 mt1' : 'h2'}`}>Week 5</div>
               </div>
               <div className="w-80 flex"> 
                 <div className={toggleCol_1 + 'flex-l flex-wrap  mr2-l'}>
