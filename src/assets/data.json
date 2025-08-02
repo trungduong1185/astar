@@ -2,8 +2,8 @@
     "register_link": "https://docs.google.com/forms/d/e/1FAIpQLSe8QB1AiVdj526CPrQR6klTCgCyTtFvhOyg-EHrHZm1mNqExg/viewform",
     "subscribe_link": "https://vietai.us6.list-manage.com/subscribe/post?u=57067948e12d221d6b91a332c&amp;id=3c0d93f5bd",
     "countdown": {
-        "time_to_start": "2025-08-17T23:59:59",
-        "deadline": "August 17, 2025"
+        "time_to_start": "2025-08-10T23:59:59",
+        "deadline": "August 10, 2025"
     },
     "menu": {
         "top": {
@@ -233,14 +233,14 @@
                     "description": "Yi Tay is a Senior Staff Research Scientist at Google DeepMind, previously spending over three years at Google Brain Singapore, where he contributed to cutting-edge research on large language models (LLMs) and NLP. He is also a co-founder of Reka AI, where his team developed Reka Core, a model that ranked in the top 5 on LMsys and competed with GPT-4 under limited resources.<br>Yi Tay’s work explores emergent abilities, scaling laws, and the science behind LLMs, combining academic rigor with real-world applications. Passionate about advancing AI, he continues to push the boundaries of trustworthy, scalable, and efficient language models."
                 },
                 {
-                    "id": 11,
+                    "id": 5,
                     "name": "Graham Neubig",
                     "image": "m_2025_graham_neubig.webp",
                     "title": "<ul class=\"mentors-title\"><li>Associate Professor at School of Computer Science, Carnegie Mellon University</li><li class=\"i\">AStar Guest Lecturer</li></ul>",
                     "description": "Graham Neubig is an Associate Professor at the Language Technology Institute, School of Computer Science, Carnegie Mellon University, and serves as Chief Scientist at All Hands AI. He leads NeuLab, focusing on advancing machine learning and natural language processing (NLP) through foundational research and practical systems. His expertise spans multilingual language processing, question answering, code generation, and interpretable learning. Neubig has also developed widely used open-source software for NLP applications and regularly shares class and tutorial notes to support the community. He is known for delivering invited talks on LLM-powered agents and model evaluation at leading venues including CMU, Stanford, and UIUC."
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "name": "Po-Shen Loh",
                     "image": "m_2025_poshenloh.webp",
                     "title": "<ul class=\"mentors-title\"><li>Professor of Mathematics at Carnegie Mellon University</li><li class=\"i\">AStar Guest Lecturer on Leadership</li></ul>",
@@ -248,35 +248,35 @@
                 },
                
                 {
-                    "id": 6,
+                    "id": 7,
                     "name": "Dr. Tiep Nguyen",
                     "image": "m_2025_tiepnguyen.webp",
                     "title": "<ul class=\"mentors-title\"><li>Lecturer at University of Information Technology</li><li>Head of Academics at NTI</li><li class=\"i\">AStar Academic Team</li></ul>",
                     "description": "Dr. Nguyen Vinh Tiep is currently a lecturer and head of the Multimedia Communications Lab at the University of Information Technology – Vietnam National University, Ho Chi Minh City (VNU-HCM). He earned his PhD from the University of Information Technology, VNU-HCM. His areas of expertise include Computer Vision and Machine Learning, with numerous research contributions and mentorship of students in practical, application-driven projects. Prof. Tiệp is deeply passionate about education, especially in inspiring research and developing AI skills among students and young learners."
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "name": "Prof. Tu Vu",
                     "image": "m_2025_tuvu.webp",
                     "title": "<ul class=\"mentors-title\"><li>Assistant Professor at Virginia Tech</li><li>Head of Research at NTI</li><li class=\"i\">AStar Academic Team</li></ul>",
                     "description": "Prof. Tu Vu is currently an Assistant Professor of Computer Science at Virginia Tech and a Faculty Researcher at Google. He earned his PhD from the University of Massachusetts Amherst under the supervision of Mohit Iyyer and previously worked as a Research Scientist at Google DeepMind. His research aims to advance and democratize artificial intelligence in the era of large language models (LLMs), with a focus on improving core LLM capabilities such as reasoning and instruction following, as well as their use in evaluation (e.g., LLM-as-a-Critic). He is also deeply engaged in transfer learning across tasks, modalities, and languages; efficient model updating with factual and real-time information; and parameter-efficient adaptation of LLMs to new domains, especially in low-resource settings. He actively bridges research and real-world impact through both academic mentorship and industrial collaboration, with a long-term vision of making powerful AI systems more accessible, adaptable, and aligned."
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "name": "Hoang Tran",
                     "image": "m_2025_hoangtran.webp",
                     "title": "<ul class=\"mentors-title\"><li>Research Engineer at OpenAI</li><li>Head of Industry at NTI</li><li class=\"i\">AStar Academic Team</li></ul>",
                     "description": "Hoang Tran is currently a research engineer at OpenAI. He was previously a research scientist at Snorkel AI, where he developed a state‑of‑the‑art, open‑source LLM that topped Stanford AI Lab - Tatsu Lab’s AlpacaEval leaderboard, and he presented this work at NVIDIA GTC 2024. At Snorkel, he also advised Fortune 500 enterprises on building custom LLMs and agentic systems. In 2020, Hoang co‑founded Vizly, a design‑feedback startup selected for the Mozilla Foundation’s Fix‑the‑Internet Spring MVP Lab."
                 },                
                                 {
-                    "id": 9,
+                    "id": 10,
                     "name": "Chien Nguyen",
                     "image": "m_2025_chiennguyen.webp",
                     "title": "<ul class=\"mentors-title\"><li>Ph.D. student in Computer Science at the University of Oregon</li><li class=\"i\">AStar Academic Team</li></ul>",
                     "description": "Chien Nguyen is a Ph.D. student in Computer Science at the University of Oregon, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and generative AI. Previously, he was a Research Resident at VinAI Research, where he worked on information extraction and the development of multilingual LLMs. Chien has co-authored multiple papers at ACL, EMNLP, and COLING, including CulturaX, one of the largest multilingual datasets for LLM training, and Okapi, a framework for instruction-tuning LLMs with RLHF in 26 languages. He also lectures on advanced NLP and LLMs at VietAI. His current research explores large-scale generative models, multimodal learning, and cross-lingual transfer techniques."
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "name": "Long Phan",
                     "image": "m_2025_long_phan.webp",
                     "title": "<ul class=\"mentors-title\"><li>Research Engineer at the Center for AI Safety</li><li class=\"i\">AStar Academic Team</li></ul>",
