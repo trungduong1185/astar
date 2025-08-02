@@ -16,14 +16,53 @@
 .block-mt-mb{
   margin: 72px auto;
 }
-.w-container{
-  width: 1280px;
-  margin: 0 auto;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width:1320px
+    }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
   .block-pt-pb{
-    padding: 48px 0;
+    padding: 48px auto;
   }
   .block-mt-mb{
     margin: 48px auto;
@@ -502,14 +541,15 @@ _qa-title
   -webkit-backdrop-filter: blur(10px);
 }
 
+
 @media only screen and (min-width: 60em) {
   .khoiVuong {
-    width: 160px;
-    height: 159px;
+    width: 132px;
+    height: 132px;
   }
   .soTo {
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 60px;
+    line-height: 60px;
     font-weight: 600;
   }
 }
@@ -545,11 +585,45 @@ _qa-title
 }
 
 /* Container 1400px for desktop */
+#desktop-count-down{
+  min-height: 54rem;
+}
 .container-1400 {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.countdown-title {
+  font-size: 4.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.countdown-subdetail {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #d6d7d9;
+  padding-top: 2rem;
+}
+@media (max-width: 72rem) {   
+  .countdown-title {
+    font-size: 1rem !important;
+  }
+  .countdown-subdetail {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 80rem) {   
+  .countdown-title {
+    font-size: 3rem;
+  }
+  .countdown-subdetail {
+    font-size: 1rem;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   .container-1400 {
@@ -557,6 +631,9 @@ _qa-title
   }
   .flex-mobile-show{
     display: flex;
+  }
+  .countdown-title {
+    font-size: 4rem;
   }
 }
 

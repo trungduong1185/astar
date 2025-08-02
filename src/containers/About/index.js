@@ -6,7 +6,7 @@ import './styles.css';
 const About = () => {
   return (
     <section id="about" className="about-section w-100 center block-pt-pb">
-      <div className="w-container">
+      <div className="container">
         <div className="flex flex-wrap items-start">
           {/* Left Column - Text Content */}
           <div className="w-100 w-50-l pr4-l">

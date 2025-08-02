@@ -5,7 +5,7 @@ import data from '../../assets/data.json';
 
 const Fee = ({ id }) => {
     return (
-        <section id={id} className="bg-white w-container block-pt-pb bg-white">
+        <section id={id} className="bg-white container block-pt-pb bg-white">
             <div className=" center w-100 ph3 pt0 pb3">
                 {/* Title Section */}
                 <div className="mb4">

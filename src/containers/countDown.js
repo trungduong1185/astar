@@ -96,13 +96,13 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           className="astar absolute "
         /> */}
 
-        <div className="flex flex-column p-title pc-white tracked tc mt4">
+        <div className="flex flex-column countdown-title pc-white tracked tc mt4">
           <p className="fw7">AStar Bootcamp</p>
-          <p className="pt3 fw7">
+          <p className="fw7">
             NTI Global Talent Program 2025
           </p>
         </div>
-        <div className="tc pc-info tracked f3 lh-copy pt4  center w-70">
+        <div className="tc countdown-subdetail tracked center w-70">
           {/* The First AI Bootcamp supported by <b>Global AI Expert Network</b>{' '}
           with
           <br />

@@ -39,7 +39,7 @@ const FAQ = () => {
 
   return (
     <section id="faq" className="block-pt-pb ">
-      <div className="w-container center">
+      <div className="container center">
         <h2 className="f2 fw7 tc mb4 tracked-l mb5">FREQUENTLY ASKED QUESTIONS</h2>
         
         <div className="flex flex-column">

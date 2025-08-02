@@ -7,139 +7,7 @@ import './styles.css';
 import { RedApplyButton } from '../../components/ApplyButton';
 import { countdown } from '../../assets/data.json';
 
-const MobileMentorShip = () => {
-  const [selectGroupId, setSelectGroupId] = useState(0);
-  const [activeMentorId, setActiveMentorId] = useState(0);
 
-  const _showInfoMentor = (id) => {
-    // console.log('id = ', id);
-    setActiveMentorId(activeMentorId === id ? 0 : id);
-  };
-
-  return (
-    <div className="db  w-100 bg-pc-red block-pt-pb">
-      {/* anchor  for Link_to */}
-      <div id="top_group" />
-      {groups.map((item, index) => {
-        return index === selectGroupId ? (
-          <>
-            <Link
-              to={'top_group'}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={2000}
-              className="pointer"
-            >
-              {/*<div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
-                <div className="flex justify-between items-center">
-                  <p className="f3 pc-white tracked">{item.title}</p>
-                  <img
-                    src="images/svg_arrow_up.svg"
-                    alt=""
-                    className="w1 ml4"
-                  />
-                </div>
-
-                <div className="f6 pc-pink-white mt3 tracked lh-copy">
-                  {item.description}
-                </div>
-              </div>*/}
-            </Link>
-
-            <div className="w-100 ph4 pt0 pb4 bb b--pink-white">
-              {item.mentors.map((mentor) => (
-                <>
-                  <div className="w-100 pt3">
-                    <div id={mentor.id} />
-                    <div 
-                      className="relative img-background-mentorship cursor-pointer"
-                      onClick={() => _showInfoMentor(mentor.id)}
-                    >
-                      <Link
-                        to={mentor.id}
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={1000}
-                        className="pointer"
-                      >
-                        <img
-                          src={'images/' + mentor.image}
-                          alt=""
-                          className="w-100 br0 pointer none_select "
-                          onClick={(e) => {
-                            e.preventDefault();
-                            _showInfoMentor(mentor.id);
-                          }}
-                        />
-                      </Link>
-
-                      <div className="fixed_name flex flex-row items-baseline">
-                        <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
-                        <p className="pc-near-white f4 fw6 nowrap dib" style={{whiteSpace: 'pre-line'}}>
-                          {mentor.name}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p> */}
-                  </div>
-
-                  <div
-                    className={
-                      'db dn-l relative box_close  ' +
-                      (activeMentorId !== mentor.id ? '' : 'box_open')
-                    }
-                  >
-                    <div className="w-100 absolute top-0 z-9 o bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
-                      <div className="w-100 bb b--white-50 mt3 mb2"></div>
-                      <p 
-                        className="f6 fw6 lh-copy tracked mt3"
-                        dangerouslySetInnerHTML={{
-                          __html: mentor.title,
-                        }}
-                      ></p>
-                      <p
-                        className="fw3 lh-copy tracked mt3"
-                        dangerouslySetInnerHTML={{
-                          __html: mentor.description,
-                        }}
-                      ></p>
-                    </div>
-                  </div>
-                </>
-              ))}
-            </div>
-          </>
-        ) : (
-          <Link
-            to={'top_group'}
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="pointer"
-          >
-            <div
-              className="w-100 pa4 bb b--pink-white"
-              onClick={() => setSelectGroupId(index)}
-            >
-              <div className="flex justify-between items-center">
-                <p className="f3 pc-white tracked">{item.title}</p>
-                <img
-                  src="images/svg_arrow_down_white.svg"
-                  alt=""
-                  className="w1 ml4"
-                />
-              </div>
-            </div>
-          </Link>
-        );
-      })}
-    </div>
-  );
-};
 
 const DesktopMentorship = () => {
   const [mentors, setMentors] = useState([]);
@@ -219,7 +87,7 @@ const DesktopMentorship = () => {
           ))}
         </div> */}
 
-        <div className="w-container center mt4 mb4">
+        <div className="container center mt4 mb4">
           {/*<p className="_title f2 fw4 lh-copy tracked tl pc-white">
             {groups[selectGroupId].title}
           </p>

@@ -11,7 +11,7 @@ const Vision = ({ id }) => (
       {vision.title}
     </p>
 
-          <div className="container-1400 vision-grid center mt3 mt4-l">
+          <div className="container vision-grid center mt3 mt4-l">
       <div className="vision-item flex flex-column items-center ph4">
         <div className="flex flex-column items-center">
           <img src="images/vision_1.svg" alt="" className="pt4" />

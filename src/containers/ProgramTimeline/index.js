@@ -27,7 +27,7 @@ const ProgramTimeline = ({ id }) => {
 
   return (
     <section id={id} className="block-pt-pb bg-white">
-      <div className="w-container center">
+      <div className="container center">
         <h2 className="f2 fw7 tc mb4 w-100 f2 fw7 ttu ph2 pl0 pr5-l pc-what-title tc tracked-l">Program Timeline</h2>
         
         <div className="timeline-container">

@@ -12,6 +12,7 @@ const Partners = () => (
             href="https://deepmind.com/" 
             className="partner-element" 
             target="_blank" 
+            rel="noreferrer"
             title="Google DeepMind - AI Research"
           >
             <img
@@ -27,6 +28,7 @@ const Partners = () => (
             href="https://virx.stanford.edu/" 
             className="partner-element" 
             target="_blank" 
+            rel="noreferrer"
             title="ViRx@STANFORD - Virus Treatment (Rx)"
           >
             <img
@@ -39,6 +41,7 @@ const Partners = () => (
             href="https://elsaspeak.com/" 
             className="partner-element" 
             target="_blank" 
+            rel="noreferrer"
             title="ELSA Speak - English Learning"
           >
             <img
@@ -51,6 +54,7 @@ const Partners = () => (
             href="https://vietai.org/" 
             className="partner-element" 
             target="_blank" 
+            rel="noreferrer"
             title="VietAI - Vietnamese AI Research Community"
           >
             <img
