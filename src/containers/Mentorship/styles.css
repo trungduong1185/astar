@@ -38,26 +38,28 @@ body.modal-open {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
   cursor: pointer;
   background: #FDEDED;
+  height: auto;
 }
 .speaker-left {
   background: linear-gradient(180deg, #731013 0%, #731013 100%);
   border-radius:  0.5rem 0 0 0.5rem;
   padding: 0;
-    margin: 0;
-    display: flex
+  margin: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .item-speakers .speaker-left img {
   border-radius: 0.5rem 0 0 0.5rem;
   width: 172px;
-  height: 172px;
   margin: 0;
   padding: 0;
-  clear: both;
-  object-fit: cover;
+  clear:both;
 }
 
 .speaker-right {
@@ -69,6 +71,8 @@ body.modal-open {
   gap: 0px;
   flex-direction: row;
   color: black;
+  height: auto;
+  align-items: center;
 }
 
 .none_select {
@@ -140,7 +144,7 @@ body.modal-open {
 }
 .profile-detail{
   padding: 24px 32px 32px 32px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.4;
     color: rgba(255, 255, 255, 1);
     font-family: Poppins;
@@ -177,17 +181,19 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .item-speakers .speaker-left img {
-  border-radius: 0.5rem 0 0 0.5rem;
-  width: 132px;
-  height: 132px;
-  margin: 0;
-  padding: 0;
-  clear: both;
-  object-fit: cover;
-}
-  .speaker-right{
-    padding: 16px;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 132px;
+    margin: 0;
+    padding: 0;
+    clear:both;
   }
+  .speaker-right{
+  padding: 16px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
   .mentors-name{
     font-size: 1rem;;
     margin-bottom: 0;
@@ -209,7 +215,7 @@ body.modal-open {
   margin: 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   justify-content: flex-end;
 }
 .cta-apply-mentorship{
@@ -226,7 +232,6 @@ body.modal-open {
   max-height: calc(100vh - 84px); /* 100vh - 24px top - 60px bottom */
   overflow-y: auto;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
 }
 .profile-header {
   padding: 20px;
@@ -256,12 +261,15 @@ body.modal-open {
 }
 .profile-detail {
   padding: 16px 20px 20px 20px;
-  font-size: 16px;
+  font-size: 1165px;
 }
 .mentors-title li{
   margin-bottom: 0.3rem;
   font-size: 16px;
 }
+}
+
+
 
 /* iOS Safari specific fixes */
 @supports (-webkit-touch-callout: none) {
@@ -270,22 +278,29 @@ body.modal-open {
   }
   
   .item-speakers .speaker-left img {
-    height: auto;
-    max-height: 100%;
+   
+    width: 132px;
     object-fit: cover;
   }
   
   .speaker-left {
-    min-height: 120px; /* Ensure minimum height on iOS */
-  }
+  /* Auto height for iOS */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
   
   .speaker-right {
-    min-height: 120px; /* Ensure minimum height on iOS */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  /* Auto height for iOS */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+  .item-speakers {
+  height: auto; /* Auto height for iOS */
 }
 }
-
 
