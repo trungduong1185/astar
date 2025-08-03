@@ -111,7 +111,7 @@ const DesktopMentorship = () => {
                   </div>
                   
                   <div className='speaker-right'>
-                    <div className="h-100 w-100 flex flex-column justify-end">
+                    <div className="flex flex-column justify-end">
                       <p className="mentors-name" >{item.name}</p>
                       <p className="f6 fw5 mt2 lh-copy" dangerouslySetInnerHTML={{ __html: item.title }}></p>                    
                     </div>

@@ -53,9 +53,11 @@ body.modal-open {
 .item-speakers .speaker-left img {
   border-radius: 0.5rem 0 0 0.5rem;
   width: 172px;
+  height: 172px;
   margin: 0;
   padding: 0;
-  clear:both;
+  clear: both;
+  object-fit: cover;
 }
 
 .speaker-right {
@@ -138,7 +140,7 @@ body.modal-open {
 }
 .profile-detail{
   padding: 24px 32px 32px 32px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.4;
     color: rgba(255, 255, 255, 1);
     font-family: Poppins;
@@ -175,12 +177,14 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .item-speakers .speaker-left img {
-    border-radius: 0.5rem 0 0 0.5rem;
-    width: 132px;
-    margin: 0;
-    padding: 0;
-    clear:both;
-  }
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 132px;
+  height: 132px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  object-fit: cover;
+}
   .speaker-right{
     padding: 16px;
   }
@@ -205,7 +209,7 @@ body.modal-open {
   margin: 0;
   display: flex;
   flex-direction: column;
-  height: -webkit-fill-available;
+  height: 100%;
   justify-content: flex-end;
 }
 .cta-apply-mentorship{
@@ -222,6 +226,7 @@ body.modal-open {
   max-height: calc(100vh - 84px); /* 100vh - 24px top - 60px bottom */
   overflow-y: auto;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
 }
 .profile-header {
   padding: 20px;
@@ -251,11 +256,35 @@ body.modal-open {
 }
 .profile-detail {
   padding: 16px 20px 20px 20px;
-  font-size: 1165px;
+  font-size: 16px;
 }
 .mentors-title li{
   margin-bottom: 0.3rem;
   font-size: 16px;
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .modal-background-mentorship {
+    max-height: calc(100vh - 120px); /* Adjust for iOS Safari */
+  }
+  
+  .item-speakers .speaker-left img {
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .speaker-left {
+    min-height: 120px; /* Ensure minimum height on iOS */
+  }
+  
+  .speaker-right {
+    min-height: 120px; /* Ensure minimum height on iOS */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 }
 
