@@ -76,7 +76,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <br />
         <b>Personalized AI Assessment</b> for{' '}
         <b>Aspiring Startups in Vietnam</b> */}
-        Empowering Asia-Pacific AI Leaders for the World
+        Empowering Asia-Pacific AI Leaders for the World.
         <br />
         A 12-week, fully online accelerator that equips emerging AI engineers with cutting-edge technical expertise and leadership skills - culminating in a showcase at the GenAI Summit 2025
 
@@ -108,7 +108,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           <br />
           <b>Personalized AI Assessment</b> for{' '}
           <b>Aspiring Startups in Vietnam</b> */}
-         Empowering Asia-Pacific AI Leaders for the World
+         Empowering Asia-Pacific AI Leaders for the World.
           <br />
           A 12-week, fully online accelerator that equips emerging AI engineers with cutting-edge technical expertise and leadership skills - culminating in a showcase at the GenAI Summit 2025
 

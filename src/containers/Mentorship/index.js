@@ -2,7 +2,6 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
 import './styles.css';
 import { RedApplyButton } from '../../components/ApplyButton';
 import { countdown } from '../../assets/data.json';
@@ -70,7 +69,7 @@ const DesktopMentorship = () => {
     <>
       <div
         id="desktop-mentorship"
-        className=" flex-l flex-column center br3 pv2 ph3 white"
+        className=" flex-l flex-column center br3 ph3 white"
       >
         {/* <div className="w-100 flex justify-around">
           {groups.map((item, index) => (
@@ -87,7 +86,7 @@ const DesktopMentorship = () => {
           ))}
         </div> */}
 
-        <div className="container center mt4 mb4">
+        <div className="container center mb4">
           {/*<p className="_title f2 fw4 lh-copy tracked tl pc-white">
             {groups[selectGroupId].title}
           </p>
