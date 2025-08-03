@@ -73,6 +73,7 @@ body.modal-open {
   color: black;
   height: auto;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .none_select {
@@ -277,8 +278,7 @@ body.modal-open {
     max-height: calc(100vh - 120px); /* Adjust for iOS Safari */
   }
   
-  .item-speakers .speaker-left img {
-   
+  .item-speakers .speaker-left img {   
     width: 132px;
     object-fit: cover;
   }
