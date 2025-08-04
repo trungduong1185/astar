@@ -17,15 +17,15 @@ const FAQ = () => {
     },
     {
       question: "When does the program take place? What is the specific timeline?",
-      answer: "Learners will join two parallel tracks in from mid-August to mid-November, with 2–3 evening sessions per week (From 7:30pm to 9:30pm). The final project presentation will be held offline at GenAI Summit 2025 in November."
+      answer: "Learners will join two parallel tracks from mid-August to mid-November, with one evening session per week (7:30 PM - 9:30 PM VNT) and one morning session (8:30 AM - 10:30 AM VNT). The final project presentation will be held offline at GenAI Summit 2025 in November."
     },
     {
       question: "What are the graduation requirements?",
-      answer: "• Completion of all track sessions and assignments\n• Submission of a capstone deliverable (code repo, presentation, short paper)\n• Minimum pass in final project evaluation by technical buddies, program leads, and senior advisors"
+      answer: "Completion of all track sessions and assignments\n• Submission of a capstone deliverable (code repo, presentation, short paper)\n• Minimum pass in final project evaluation by technical buddies, program leads, and senior advisors"
     },
     {
       question: "What is the enrollment process?",
-      answer: "• Complete the online application form\n• Take a technical test\n• Interview with the selection panel\n• Pay the remaining amount after scholarship to secure your seat\n• Receive official program confirmation from the organizers"
+      answer: "Complete the online application form\n• Take a technical test\n• Interview with the selection panel\n• Pay the remaining amount after scholarship to secure your seat\n• Receive official program confirmation from the organizers"
     },
     {
       question: "When and how will I be notified of admission decisions?",
