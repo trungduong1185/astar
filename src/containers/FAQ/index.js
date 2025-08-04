@@ -30,6 +30,10 @@ const FAQ = () => {
     {
       question: "When and how will I be notified of admission decisions?",
       answer: "Outcomes announced via email by early-August 2025. Accepted applicants receive next-step instructions and onboarding details in the same notification."
+    },
+    {
+      question: "What language will the program be conducted in?",
+      answer: "The entire program, including lectures, discussions, and materials, will be delivered 100% in English."
     }
   ];
 
