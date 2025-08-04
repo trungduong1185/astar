@@ -40,13 +40,13 @@ const Fee = ({ id }) => {
                     <h3 className="f4 fw7 pc-dark-gray mb3">Scholarship Criteria</h3>
                     <ul className="flex flex-column details-list-scholarship">
                             <li className="f5 pc-dark-gray ma0">
-                                Demonstrated academic excellence or research achievements (GPA 3.2 or above)
+                                Demonstrated academic excellence or research achievements
                             </li>
                             <li className="f5 pc-dark-gray ma0">
-                                Strong performance in the technical assessment (top scorers)
+                                Strong performance in the technical assessment
                             </li>
                             <li className="f5 pc-dark-gray ma0">
-                                Personal or family hardship (e.g. low-income households, children of war veterans/martyrs)
+                                Personal or family hardship
                             </li>
                             <li className="f5 pc-dark-gray ma0">
                                 Clear motivation and commitment aligned with the program's mission
