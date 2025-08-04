@@ -66,7 +66,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       </div>
 
       <p className="tc f2 fw7 center w-90 mt4">
-      AStar Bootcamp  
+      GStar Bootcamp  
       <br />
                 NTI Global Talent Program 2025
       </p>
@@ -76,9 +76,9 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <br />
         <b>Personalized AI Assessment</b> for{' '}
         <b>Aspiring Startups in Vietnam</b> */}
-        Empowering Asia-Pacific AI Leaders for the World.
+        Empowering future AI leaders in Asia-Pacific and beyond.
         <br />
-        A 12-week, fully online accelerator that equips emerging AI engineers with cutting-edge technical expertise and leadership skills - culminating in a showcase at the GenAI Summit 2025
+        A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at te GenAI Summit 2025
 
       </div>
     </div>
@@ -97,7 +97,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         /> */}
 
         <div className="flex flex-column countdown-title pc-white tracked tc mt4">
-          <p className="fw7">AStar Bootcamp</p>
+          <p className="fw7">GStar Bootcamp</p>
           <p className="fw7">
             NTI Global Talent Program 2025
           </p>
@@ -108,9 +108,9 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           <br />
           <b>Personalized AI Assessment</b> for{' '}
           <b>Aspiring Startups in Vietnam</b> */}
-         Empowering Asia-Pacific AI Leaders for the World.
+         Empowering future AI leaders in Asia-Pacific and beyond.
           <br />
-          A 12-week, fully online accelerator that equips emerging AI engineers with cutting-edge technical expertise and leadership skills - culminating in a showcase at the GenAI Summit 2025
+          A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at te GenAI Summit 2025
 
         </div>
 

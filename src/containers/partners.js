@@ -9,15 +9,15 @@ const Partners = () => (
         <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">
         
           <a 
-            href="https://deepmind.com/" 
+            href="https://google.com/" 
             className="partner-element" 
             target="_blank" 
             rel="noreferrer"
-            title="Google DeepMind - AI Research"
+            title="Google "
           >
             <img
-              alt="Google DeepMind - AI Research"
-              src="images/partners/google-deepmind.svg"
+              alt="Google"
+              src="images/partners/google.svg"
               className="accordion featured"
             />
           </a>
