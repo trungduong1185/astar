@@ -66,7 +66,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       </div>
 
       <p className="tc f2 fw7 center w-90 mt4">
-      AStar Bootcamp  
+      GStar Bootcamp  
       <br />
                 NTI Global Talent Program 2025
       </p>
@@ -97,7 +97,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         /> */}
 
         <div className="flex flex-column countdown-title pc-white tracked tc mt4">
-          <p className="fw7">AStar Bootcamp</p>
+          <p className="fw7">GStar Bootcamp</p>
           <p className="fw7">
             NTI Global Talent Program 2025
           </p>
