@@ -215,7 +215,7 @@
                     "id": 2,
                     "name": "Dr. Yi Tay",
                     "image": "m_2025_yitay.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Scientist & Engineer at Google DeepMind</li><li class=\"i\">AStar Overall Technical Lead</li></ul>",
+                    "title": "<ul class=\"mentors-title\"><li>Scientist & Engineer at Google DeepMind</li><li class=\"i\">GStar Overall Technical Lead</li></ul>",
                     "description": "Yi Tay is a Senior Staff Research Scientist at Google DeepMind, previously spending over three years at Google Brain Singapore, where he contributed to cutting-edge research on large language models (LLMs) and NLP. He is also a co-founder of Reka AI, where his team developed Reka Core, a model that ranked in the top 5 on LMsys and competed with GPT-4 under limited resources.<br>Yi Tay's work explores emergent abilities, scaling laws, and the science behind LLMs, combining academic rigor with real-world applications. Passionate about advancing AI, he continues to push the boundaries of trustworthy, scalable, and efficient language models."
                 },
                 {
