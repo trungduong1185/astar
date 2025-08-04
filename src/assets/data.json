@@ -206,54 +206,53 @@
             "mentors": [
                 {
                     "id": 1,
-                    "name": "Thang Luong",
+                    "name": "Dr. Thang Luong",
                     "image": "m_2025_thangluong.webp",
                     "title": "<ul class=\"mentors-title\"><li>Senior Staff Research Scientist at Google DeepMind</li><li>Co-founder of NTI</li><li class=\"i\">GStar Program Director</li></ul>",
-                    "description": "Thang Luong is currently a Senior Staff Research Scientist and Senior Manager at Google DeepMind, formerly Google Brain. He obtained his PhD in Computer Science from Stanford University in 2016, during which he pioneered the field of deep learning for machine translation. At Google, Dr. Luong built state-of-the-art models in both language (QANet, ELECTRA) and vision (UDA, NoisyStudent). He co-founded Project Meena, which debuted the world’s best chatbot in 2020 and later became Google LaMDA chatbot in 2021. Dr. Luong has been co-leading the development of Bard Multimodality since 2022 and is the principal investigator of the AlphaGeometry project (published in Nature, 2024) that solves Olympiad-level geometry problems and competes at the International Mathematical Olympiad (IMO). Recently, he leads the Superhuman Reasoning team at Google to built the first AI that reaches Silver medalist level at IMO 2024."
+                    "description": "Thang Luong is currently a Senior Staff Research Scientist and Senior Manager at Google DeepMind, formerly Google Brain. He obtained his PhD in Computer Science from Stanford University in 2016, during which he pioneered the field of deep learning for machine translation. At Google, Dr. Luong built state-of-the-art models in both language (QANet, ELECTRA) and vision (UDA, NoisyStudent). He co-founded Project Meena, which debuted the world's best chatbot in 2020 and later became Google LaMDA chatbot in 2021. Dr. Luong has been co-leading the development of Bard Multimodality since 2022 and is the principal investigator of the AlphaGeometry project (published in Nature, 2024) that solves Olympiad-level geometry problems and competes at the International Mathematical Olympiad (IMO). Recently, he leads the Superhuman Reasoning team at Google to built the first AI that reaches Silver medalist level at IMO 2024."
                 },
                 {
                     "id": 2,
-                    "name": "Jeff Dean",
-                    "image": "m_2025_jeff_dean.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Chief Scientist, Google Research and Google DeepMind</li><li class=\"i\">GStar Senior Advisor</li></ul>",
-                    "description": "Jeff Dean, a distinguished figure in the realm of computer science, has made significant and lasting contributions to the field of artificial intelligence (AI). His work at Google, where he currently serves as the head of Google AI, has been instrumental in propelling the company to the forefront of AI research and development. A true visionary, Dean was one of the founding members of Google Brain, a team that pioneered the development of large-scale artificial neural networks, a cornerstone of modern AI systems. His expertise and leadership have played a pivotal role in shaping Google's AI strategy and have solidified his position as a leading voice in the AI community."
-                }, 
+                    "name": "Dr. Yi Tay",
+                    "image": "m_2025_yitay.webp",
+                    "title": "<ul class=\"mentors-title\"><li>Scientist & Engineer at Google DeepMind</li><li class=\"i\">AStar Overall Technical Lead</li></ul>",
+                    "description": "Yi Tay is a Senior Staff Research Scientist at Google DeepMind, previously spending over three years at Google Brain Singapore, where he contributed to cutting-edge research on large language models (LLMs) and NLP. He is also a co-founder of Reka AI, where his team developed Reka Core, a model that ranked in the top 5 on LMsys and competed with GPT-4 under limited resources.<br>Yi Tay's work explores emergent abilities, scaling laws, and the science behind LLMs, combining academic rigor with real-world applications. Passionate about advancing AI, he continues to push the boundaries of trustworthy, scalable, and efficient language models."
+                },
                 {
                     "id": 3,
-                    "name": "Christopher D. Manning",
-                    "image": "m_2025_christophermanning.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Professor of Machine Learning and NLP at Stanford</li><li class=\"i\">GStar Senior Advisor</li></ul>",
-                    "description": "Christopher D. Manning is the Thomas M. Siebel Professor in Machine Learning and Professor of Linguistics and Computer Science at Stanford University, and Associate Director of the Stanford Institute for Human-Centered AI (HAI). He leads the Stanford NLP Group and developed widely used tools such as Stanford CoreNLP and Stanza. Manning is a pioneer in natural language processing, driving the transition from statistical methods to deep learning, with key contributions to GloVe embeddings, attention mechanisms, and neural architectures that shaped models like transformers, BERT, and GPT. He co-authored foundational textbooks and created the popular course CS224N: NLP with Deep Learning."
-                },                 
+                    "name": "Dr. Jeff Dean",
+                    "image": "m_2025_jeff_dean.webp",
+                    "title": "<ul class=\"mentors-title\"><li>Chief Scientist of Google Research and Google DeepMind</li><li class=\"i\">GStar Senior Advisor</li></ul>",
+                    "description": "Jeff Dean, a distinguished figure in the realm of computer science, has made significant and lasting contributions to the field of artificial intelligence (AI). His work at Google, where he currently serves as the head of Google AI, has been instrumental in propelling the company to the forefront of AI research and development. A true visionary, Dean was one of the founding members of Google Brain, a team that pioneered the development of large-scale artificial neural networks, a cornerstone of modern AI systems. His expertise and leadership have played a pivotal role in shaping Google's AI strategy and have solidified his position as a leading voice in the AI community."
+                },
                 {
                     "id": 4,
-                    "name": "Preslav Nakov",
+                    "name": "Prof. Christopher D. Manning",
+                    "image": "m_2025_christophermanning.webp",
+                    "title": "<ul class=\"mentors-title\"><li>Professor of Machine Learning and NLP at Stanford University</li><li class=\"i\">GStar Senior Advisor</li></ul>",
+                    "description": "Christopher D. Manning is the Thomas M. Siebel Professor in Machine Learning and Professor of Linguistics and Computer Science at Stanford University, and Associate Director of the Stanford Institute for Human-Centered AI (HAI). He leads the Stanford NLP Group and developed widely used tools such as Stanford CoreNLP and Stanza. Manning is a pioneer in natural language processing, driving the transition from statistical methods to deep learning, with key contributions to GloVe embeddings, attention mechanisms, and neural architectures that shaped models like transformers, BERT, and GPT. He co-authored foundational textbooks and created the popular course CS224N: NLP with Deep Learning."
+                },
+                {
+                    "id": 5,
+                    "name": "Prof. Preslav Nakov",
                     "image": "m_2025_preslavnakov.webp",
                     "title": "<ul class=\"mentors-title\"><li>Department Chair and Professor of Natural Language Processing at MBZUAI</li><li class=\"i\">GStar Senior Advisor</li></ul>",
                     "description": "Professor Preslav Nakov is Department Chair and Professor of NLP at MBZUAI in Abu Dhabi. His research spans disinformation, fact-checking, media bias, fake news detection, machine translation, and large language models. Previously, he was Principal Scientist at Qatar Computing Research Institute and held positions at National University of Singapore and Bulgarian Academy of Sciences.<br>Author of 250+ papers and several books, he is among the top 2% most-cited scientists globally and has received numerous awards, including the John Atanasoff Award. He also serves as President of ACL SIGLEX and sits on editorial boards of top NLP journals, driving global efforts for trustworthy, multilingual AI."
                 },
                 {
-                    "id": 5,
-                    "name": "Yi Tay",
-                    "image": "m_2025_yitay.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Scientist & Engineer at Google DeepMind</li><li class=\"i\">GStar Guest Lecturer</li></ul>",
-                    "description": "Yi Tay is a Senior Staff Research Scientist at Google DeepMind, previously spending over three years at Google Brain Singapore, where he contributed to cutting-edge research on large language models (LLMs) and NLP. He is also a co-founder of Reka AI, where his team developed Reka Core, a model that ranked in the top 5 on LMsys and competed with GPT-4 under limited resources.<br>Yi Tay’s work explores emergent abilities, scaling laws, and the science behind LLMs, combining academic rigor with real-world applications. Passionate about advancing AI, he continues to push the boundaries of trustworthy, scalable, and efficient language models."
-                },
-                {
                     "id": 6,
-                    "name": "Graham Neubig",
+                    "name": "Prof. Graham Neubig",
                     "image": "m_2025_graham_neubig.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Associate Professor at School of Computer Science, Carnegie Mellon University</li><li class=\"i\">GStar Guest Lecturer</li></ul>",
+                    "title": "<ul class=\"mentors-title\"><li>Associate Professor at the School of Computer Science, Carnegie Mellon University</li><li class=\"i\">GStar Guest Lecturer</li></ul>",
                     "description": "Graham Neubig is an Associate Professor at the Language Technology Institute, School of Computer Science, Carnegie Mellon University, and serves as Chief Scientist at All Hands AI. He leads NeuLab, focusing on advancing machine learning and natural language processing (NLP) through foundational research and practical systems. His expertise spans multilingual language processing, question answering, code generation, and interpretable learning. Neubig has also developed widely used open-source software for NLP applications and regularly shares class and tutorial notes to support the community. He is known for delivering invited talks on LLM-powered agents and model evaluation at leading venues including CMU, Stanford, and UIUC."
                 },
                 {
                     "id": 7,
-                    "name": "Po-Shen Loh",
+                    "name": "Prof. Po-Shen Loh",
                     "image": "m_2025_poshenloh.webp",
                     "title": "<ul class=\"mentors-title\"><li>Professor of Mathematics at Carnegie Mellon University</li><li class=\"i\">GStar Guest Lecturer on Leadership</li></ul>",
                     "description": "Po‑Shen Loh is a Professor of Mathematics at Carnegie Mellon University, a social entrepreneur, and Vice President of the IMO Foundation. From 2013 to 2023, he served as national coach of the USA International Mathematical Olympiad team, guiding them to multiple first‑place victories. Loh also founded Expii, a free AI‑powered math education platform, and developed NOVID, a pandemic‑control app built on innovative network theory. His research spans combinatorics, probability theory, and computer science, and he has been recognized with honours including the Presidential Early Career Award for Scientists and Engineers. Loh travels globally, engaging over 10,000 people annually with lectures and creative problem‑solving courses."
                 },
-               
                 {
                     "id": 8,
                     "name": "Dr. Tiep Nguyen",
@@ -273,13 +272,13 @@
                     "name": "Hoang Tran",
                     "image": "m_2025_hoangtran.webp",
                     "title": "<ul class=\"mentors-title\"><li>Research Engineer at OpenAI</li><li>Head of Industry at NTI</li><li class=\"i\">GStar Academic Team</li></ul>",
-                    "description": "Hoang Tran is currently a research engineer at OpenAI. He was previously a research scientist at Snorkel AI, where he developed a state‑of‑the‑art, open‑source LLM that topped Stanford AI Lab - Tatsu Lab’s AlpacaEval leaderboard, and he presented this work at NVIDIA GTC 2024. At Snorkel, he also advised Fortune 500 enterprises on building custom LLMs and agentic systems. In 2020, Hoang co‑founded Vizly, a design‑feedback startup selected for the Mozilla Foundation’s Fix‑the‑Internet Spring MVP Lab."
-                },                
-                                {
+                    "description": "Hoang Tran is currently a research engineer at OpenAI. He was previously a research scientist at Snorkel AI, where he developed a state‑of‑the‑art, open‑source LLM that topped Stanford AI Lab - Tatsu Lab's AlpacaEval leaderboard, and he presented this work at NVIDIA GTC 2024. At Snorkel, he also advised Fortune 500 enterprises on building custom LLMs and agentic systems. In 2020, Hoang co‑founded Vizly, a design‑feedback startup selected for the Mozilla Foundation's Fix‑the‑Internet Spring MVP Lab."
+                },
+                {
                     "id": 11,
                     "name": "Chien Nguyen",
                     "image": "m_2025_chiennguyen.webp",
-                    "title": "<ul class=\"mentors-title\"><li>Ph.D. student in Computer Science at the University of Oregon</li><li class=\"i\">GStar Academic Team</li></ul>",
+                    "title": "<ul class=\"mentors-title\"><li>PhD student in Computer Science at the University of Oregon</li><li class=\"i\">GStar Academic Team</li></ul>",
                     "description": "Chien Nguyen is a Ph.D. student in Computer Science at the University of Oregon, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and generative AI. Previously, he was a Research Resident at VinAI Research, where he worked on information extraction and the development of multilingual LLMs. Chien has co-authored multiple papers at ACL, EMNLP, and COLING, including CulturaX, one of the largest multilingual datasets for LLM training, and Okapi, a framework for instruction-tuning LLMs with RLHF in 26 languages. He also lectures on advanced NLP and LLMs at VietAI. His current research explores large-scale generative models, multimodal learning, and cross-lingual transfer techniques."
                 },
                 {
@@ -287,7 +286,7 @@
                     "name": "Long Phan",
                     "image": "m_2025_long_phan.webp",
                     "title": "<ul class=\"mentors-title\"><li>Research Engineer at the Center for AI Safety</li><li class=\"i\">GStar Academic Team</li></ul>",
-                    "description": "Long Phan is a Research Engineer at the Center for AI Safety, working with Dan Hendrycks on advancing AI Safety and robustness. He earned his B.S. in Computer Science from Case Western Reserve University in 2023, where he collaborated with Trieu H. Trinh and Minh-Thang Luong (DeepMind). Long has contributed to influential projects such as HarmBench, a standardized framework for automated red teaming, Representation Engineering, and Circuit Breakers for improving alignment and robustness. He is also a co-author on large-scale initiatives like BLOOM and multilingual models, and his research spans LLMs, transparency, and safety evaluations. Long’s work has appeared in ACL, NAACL, EACL, and leading AI conferences."
+                    "description": "Long Phan is a Research Engineer at the Center for AI Safety, working with Dan Hendrycks on advancing AI Safety and robustness. He earned his B.S. in Computer Science from Case Western Reserve University in 2023, where he collaborated with Trieu H. Trinh and Minh-Thang Luong (DeepMind). Long has contributed to influential projects such as HarmBench, a standardized framework for automated red teaming, Representation Engineering, and Circuit Breakers for improving alignment and robustness. He is also a co-author on large-scale initiatives like BLOOM and multilingual models, and his research spans LLMs, transparency, and safety evaluations. Long's work has appeared in ACL, NAACL, EACL, and leading AI conferences."
                 }
                
                 
