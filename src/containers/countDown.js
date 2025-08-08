@@ -78,7 +78,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <b>Aspiring Startups in Vietnam</b> */}
         Empowering future AI leaders in Asia-Pacific and beyond.
         <br />
-        A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at te GenAI Summit 2025
+        A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at our GenAI Summit 2025
 
       </div>
     </div>
@@ -110,7 +110,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           <b>Aspiring Startups in Vietnam</b> */}
          Empowering future AI leaders in Asia-Pacific and beyond.
           <br />
-          A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at te GenAI Summit 2025
+          A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at our GenAI Summit 2025
 
         </div>
 

@@ -40,7 +40,7 @@ const About = () => {
               />
               <div className="absolute bottom-0 left-0 right-0 bg-black-50 white pa3 br3 br--bottom">
                 <p className="f6 ma0">
-                  Participants collaborating on real-world AI projects during the program
+                Participants at our GenAI Summit 2024
                 </p>
               </div>
             </div>
