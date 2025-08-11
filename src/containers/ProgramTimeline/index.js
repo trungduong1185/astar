@@ -8,7 +8,7 @@ const ProgramTimeline = ({ id }) => {
     {
       month: '30 July - 17 August',
       title: 'Recruitment',
-      description: ['<b>Aug 12:</b> deadline to apply', '<b>Aug 13:</b> entrance test for selected candidates', '<b>Aug 15-17:</b> interviews for selected candidates'],
+      description: ['<b>Aug 13:</b> deadline to apply', '<b>Aug 14-15:</b> entrance test for selected candidates', '<b>Aug 16-17:</b> interviews for selected candidates'],
       position: 'left'
     },
     {
