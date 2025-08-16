@@ -13,6 +13,21 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       // style={{ backgroundImage: 'url(images/mb_background.png)' }}
       style={{ backgroundImage: 'url(images/bg_nti_ai_bootcamp.png)' }}
     >
+      
+      <p className="tc f2 fw7 center w-90 mt4">
+      GStar Bootcamp  
+      <br />
+                NTI Global Talent Program 2025
+      </p>
+<div className="tc pc-info tracked f6 w-90 center lh-title pt4 mb4">
+        {/* The First AI Bootcamp supported by <b>Global AI Expert Network</b> with
+        <br />
+        <b>Personalized AI Assessment</b> for{' '}
+        <b>Aspiring Startups in Vietnam</b> */}
+        Empowering future AI leaders in Asia-Pacific and beyond. A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at our GenAI Summit 2025
+
+      </div>
+      
       <div id="_mb-group-count-down" className="flex justify-center items-end">
         {/* <!--  days --> */}
         <div
@@ -65,31 +80,33 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         </div>
       </div>
 
-      <p className="tc f2 fw7 center w-90 mt4">
-      GStar Bootcamp  
-      <br />
-                NTI Global Talent Program 2025
-      </p>
+      <div className="db-l w-90 tc mb4" style={{flexDirection: 'column'}}>         
+          <p style={{color: 'white', marginTop: 16, opacity: 0.7}}>*Deadline: {countdown.deadline}</p>
+          <p style={{color: 'white', marginTop: 16, fontSize: 16}}>Thanks everyone for your interest! The deadline has now passed. For upcoming programs, please follow us at our <a href="https://www.facebook.com/newturing" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>fanpage</a> or <a href="mailto:contact@newturing.ai" style={{color: 'white'}}>email us</a>.</p>
+        </div>
 
-      <div className="tc pc-info tracked f6 w-90 center lh-title pt4">
-        {/* The First AI Bootcamp supported by <b>Global AI Expert Network</b> with
-        <br />
-        <b>Personalized AI Assessment</b> for{' '}
-        <b>Aspiring Startups in Vietnam</b> */}
-        Empowering future AI leaders in Asia-Pacific and beyond.
-        <br />
-        A 12-week, fully online accelerator that equips emerging AI talents with cutting-edge technical expertise and leadership skills - culminating in a showcase at our GenAI Summit 2025
 
-      </div>
+      
     </div>
 
     {/* <!-- desktop countdown --> */}
     <div
       id="desktop-count-down"
-      className="dn dn-m flex-l w-100 bg-black-20 vh-100 items-center justify-around cover"
-      style={{ backgroundImage: "url('images/bg_nti_ai_bootcamp.webp')", backgroundPosition: 'center' }}
+      className="dn dn-m flex-l w-100 vh-100 items-center justify-around cover relative"
+      style={{ backgroundColor: '#000000' }}
     >
-      <div className="flex flex-column relative">
+      {/* Background image with opacity */}
+      <div 
+        className="absolute top-0 left-0 w-100 h-100 cover"
+        style={{ 
+          backgroundImage: "url('images/bg_nti_ai_bootcamp.webp')", 
+          backgroundPosition: 'center center',
+          opacity: 0.7,
+          zIndex: 1
+        }}
+      />
+      {/* Content overlay */}
+      <div className="flex flex-column relative" style={{ zIndex: 2 }}>
         {/* <img
           src="images/a-star-icon.png"
           alt=""
@@ -139,9 +156,9 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           </div>
         </div>
 
-        <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
-          <ApplyButton />
-          <p style={{color: 'white', marginTop: 16}}>*Deadline: {countdown.deadline}</p>
+        <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>         
+          <p style={{color: 'white', marginTop: 16, opacity: 0.7}}>*Deadline: {countdown.deadline}</p>
+          <p style={{color: 'white', marginTop: 16, fontSize: 18}}>Thanks everyone for your interest! The deadline has now passed. <br></br>For upcoming programs, please follow us at our <a href="https://www.facebook.com/newturing" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>fanpage</a> or <a href="mailto:contact@newturing.ai" style={{color: 'white'}}>email us</a>.</p>
         </div>
       </div>
     </div>
