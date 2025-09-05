@@ -20,8 +20,7 @@ const Partners = () => (
               src="images/partners/google.svg"
               className="accordion featured"
             />
-          </a>
-          
+          </a>        
           
           
           <a 
@@ -63,6 +62,19 @@ const Partners = () => (
               className="accordion featured"
             />
           </a>
+          <a 
+            href="#" 
+            className="partner-element" 
+            target="_blank" 
+            rel="noreferrer"
+            title="Nexia - nexia-impact-capital"
+          >
+            <img
+              alt="Nexia - nexia-impact-capital"
+              src="images/partners/nexia-impact-capital.webp"
+              className="accordion featured"
+            />
+          </a>      
         </div>
       </div>
     </div>
