@@ -4,10 +4,9 @@ import '../css/styles.css';
 const Partners = () => (
   <>
     <div className="w-100 pv3">
-      <div className="container-1400 tc center">
-        <p className="_partner-title f2 fw7 tracked pv4 mb2">PARTNERS</p>
-        <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">
-        
+    <div className="container-1400 tc center">
+        <p className="_partner-title f2 fw7 tracked pv4 mb2">STRATEGIC PARTNER</p>
+        <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">        
           <a 
             href="https://google.com/" 
             className="partner-element" 
@@ -20,11 +19,36 @@ const Partners = () => (
               src="images/partners/google.svg"
               className="accordion featured"
             />
-          </a>        
+          </a>      
           
           
+        </div>
+      </div>
+      <div className="container-1400 tc center">
+        <p className="_partner-title f2 fw7 tracked pv4 mb2">FOUNDATIONAL PARTNER</p>
+        <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">        
+         
           <a 
-            href="https://virx.stanford.edu/" 
+            href="https://vietai.org/" 
+            className="partner-element" 
+            target="_blank" 
+            rel="noreferrer"
+            title="VietAI - Vietnamese AI Research Community"
+          >
+            <img
+              alt="Nexia - nexia-impact-capital"
+              src="images/partners/nexia-impact-capital.webp"
+              className="accordion featured"
+            />
+          </a>
+        </div>
+      </div>
+      <div className="container-1400 tc center">
+        <p className="_partner-title f2 fw7 tracked pv4 mb2">COMMUNITY PARTNERS</p>
+        <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">        
+          
+          
+          <a  href="https://virx.stanford.edu/" 
             className="partner-element" 
             target="_blank" 
             rel="noreferrer"
@@ -61,20 +85,7 @@ const Partners = () => (
               src="images/partners/vietai.svg"
               className="accordion featured"
             />
-          </a>
-          <a 
-            href="#" 
-            className="partner-element" 
-            target="_blank" 
-            rel="noreferrer"
-            title="Nexia - nexia-impact-capital"
-          >
-            <img
-              alt="Nexia - nexia-impact-capital"
-              src="images/partners/nexia-impact-capital.webp"
-              className="accordion featured"
-            />
-          </a>      
+          </a>         
         </div>
       </div>
     </div>
