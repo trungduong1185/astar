@@ -5,7 +5,7 @@ const Partners = () => (
   <>
     <div className="w-100 pv3">
     <div className="container-1400 tc center">
-        <p className="_partner-title f2 fw7 tracked pv4 mb2">STRATEGIC PARTNER</p>
+        <p className="_partner-title f2 fw7 tracked pv4 mb2">STRATEGIC & FOUNDATIONAL PARTNER</p>
         <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">        
           <a 
             href="https://google.com/" 
@@ -20,14 +20,7 @@ const Partners = () => (
               className="accordion featured"
             />
           </a>      
-          
-          
-        </div>
-      </div>
-      <div className="container-1400 tc center">
-        <p className="_partner-title f2 fw7 tracked pv4 mb2">FOUNDATIONAL PARTNER</p>
-        <div className="pv3 flex flex-wrap justify-center items-center list-partner-element">        
-         
+
           <a 
             href="https://vietai.org/" 
             className="partner-element" 
